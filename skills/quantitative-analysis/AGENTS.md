@@ -1,19 +1,19 @@
-# Quantitative Analysis Top-Level Guide
+# 계량 분석 최상위 가이드
 
-## Scope
+## 적용 범위
 
-- Apply these rules to `skills/quantitative-analysis/` and its descendants unless a deeper file overrides them.
+- 하위 파일이 별도로 규정하지 않는 한, 이 규칙을 `skills/quantitative-analysis/` 및 그 하위 항목에 적용한다.
 
-## Purpose
+## 목적
 
-- Store systematic and empirical research skills such as screening, backtesting, factor analysis, and signal research.
+- 스크리닝, 백테스트, 팩터 분석, 시그널 리서치 등 시스템적·실증적 리서치 스킬을 보관한다.
 
-## Structure
+## 구조
 
-- Prefer flat skill folders directly under `skills/quantitative-analysis/`.
-- Keep the layout shallow and avoid unnecessary nesting.
+- `skills/quantitative-analysis/` 바로 아래에 평평한(flat) 스킬 폴더를 두는 방식을 우선한다.
+- 레이아웃은 얕게 유지하고 불필요한 중첩을 피한다.
 
-## Rules
+## 규칙
 
-- Emphasize reproducibility, data hygiene, and explicit methodology.
-- Separate statistical evidence from narrative interpretation.
+- 재현성, 데이터 위생(data hygiene), 명시적 방법론을 강조한다.
+- 통계적 근거와 서사적 해석을 구분한다.

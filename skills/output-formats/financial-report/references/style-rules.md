@@ -1,28 +1,28 @@
-# Style Rules
+# 스타일 규칙
 
-## Tone
+## 어조
 
-- Write like professional financial research, not promotional copy.
-- Keep sentences direct, information-dense, and decision-oriented.
-- Prefer confident wording only when the evidence is strong.
+- 홍보 문구가 아니라 전문 금융 리서치처럼 작성한다.
+- 문장은 직설적이고 정보 밀도가 높으며 의사결정 지향적으로 유지한다.
+- 근거가 강할 때만 확신에 찬 표현을 사용한다.
 
-## Structure
+## 구조
 
-- Lead with the main view before background detail.
-- Prefer short sections with informative headings.
-- Use bullets for thesis points, catalysts, monitoring points, and risks.
-- Keep chart captions short and analytical.
+- 배경 설명보다 핵심 관점을 먼저 제시한다.
+- 정보를 담은 제목을 가진 짧은 섹션을 우선한다.
+- 투자 논리, 촉매, 모니터링 포인트, 리스크에는 글머리 기호를 사용한다.
+- 차트 캡션은 짧고 분석적으로 작성한다.
 
-## Presentation
+## 표현
 
-- Keep tables compact and argument-driven.
-- Use labels consistently for stance, valuation, catalysts, and chart titles.
-- Preserve a clean heading hierarchy so another skill can convert the output into docx or pdf without rewriting structure.
-- Put charts near the sections they support and explain why each chart matters.
+- 표는 간결하고 논지 중심으로 구성한다.
+- 투자 관점, 밸류에이션, 촉매, 차트 제목에 레이블을 일관되게 사용한다.
+- 다른 스킬이 구조를 다시 쓰지 않고 docx 또는 pdf로 변환할 수 있도록 깔끔한 제목 위계를 유지한다.
+- 차트는 뒷받침하는 섹션 가까이에 배치하고 각 차트가 왜 중요한지 설명한다.
 
-## What to Avoid
+## 피해야 할 사항
 
-- Overly casual language
-- Long blocks of unsupported narrative
-- Decorative formatting that will not survive downstream conversion
-- Chart-heavy outputs with weak written interpretation
+- 지나치게 가벼운 표현
+- 근거 없는 장문의 서술
+- 후속 변환 과정에서 유지되지 않을 장식적 서식
+- 서술적 해석이 빈약한 차트 위주의 산출물

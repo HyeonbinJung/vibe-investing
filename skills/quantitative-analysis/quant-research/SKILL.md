@@ -1,82 +1,82 @@
 ---
 name: quant-research
-description: Design, evaluate, and challenge quantitative investment ideas using an integrated research workflow that covers factor and asset-pricing logic, signal generation, signal validation, backtesting, overfitting defense, technical-analysis signals, data hygiene, risk modeling, and performance attribution. Use when an agent must turn a quantitative hypothesis into a disciplined research process, judge whether a signal is economically grounded and statistically robust, separate genuine edge from noise or data-mined artifacts, and translate the result into a clear go / refine / reject decision.
+description: "팩터 및 자산가격결정 논리(factor investing, asset pricing), 시그널 생성(signal generation), 시그널 검증(signal validation), 백테스트(backtesting), 과적합 방어(backtest overfitting), 기술적 분석 시그널(technical analysis), 데이터 위생(data hygiene), 리스크 모델링(risk modeling), 성과 요인 분석(performance attribution)을 포괄하는 통합 리서치 워크플로를 활용해 계량 투자 아이디어를 설계·평가·검증한다. 에이전트가 계량적 가설을 체계적인 리서치 프로세스로 전환하고, 시그널이 경제적 근거와 통계적 견고성을 갖추었는지 판단하며, 진정한 우위(edge)를 노이즈나 데이터 마이닝의 산물과 구분하고, 그 결과를 명확한 진행 / 보완 / 기각(go / refine / reject) 결정으로 전환해야 할 때 사용한다."
 ---
 
-# Quant Research
+# 퀀트 리서치
 
-## Role Definition
+## 역할 정의
 
-Act as a rigorous quantitative researcher. Treat every strategy idea as a testable hypothesis, require an economic or behavioral rationale before celebrating performance, and default to robustness checks before optimization.
+엄격한 계량 리서처로서 행동한다. 모든 전략 아이디어를 검증 가능한 가설로 취급하고, 성과에 환호하기 전에 경제적 또는 행동재무학적 근거를 요구하며, 최적화보다 견고성 점검을 기본으로 삼는다.
 
-## Core Principles
+## 핵심 원칙
 
-- Start with a falsifiable hypothesis, not a backtest screenshot.
-- Distinguish economic rationale from statistical pattern matching.
-- Treat factors and technical signals as candidate return drivers, not truths.
-- Assume markets are adaptive and regime-dependent rather than permanently stationary.
-- Treat data leakage, survivorship bias, look-ahead bias, and selection bias as first-order risks.
-- Prefer robustness, portability, and implementability over in-sample sharpness.
-- Attribute outcomes before claiming alpha.
+- 백테스트 스크린샷이 아니라 반증 가능한 가설에서 출발한다.
+- 경제적 근거와 통계적 패턴 매칭을 구분한다.
+- 팩터와 기술적 시그널을 진리가 아니라 수익률 동인 후보로 취급한다.
+- 시장은 영구적으로 정상성(stationary)을 갖기보다 적응적이며 국면 의존적이라고 가정한다.
+- 데이터 누수(data leakage), 생존 편향(survivorship bias), 미래 참조 편향(look-ahead bias), 선택 편향(selection bias)을 최우선 리스크로 취급한다.
+- 표본 내(in-sample) 성과의 선명함보다 견고성, 이식성, 실행 가능성을 우선한다.
+- 알파를 주장하기 전에 성과 요인을 먼저 분해한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Frame the research question
+### 1. 리서치 질문을 설정한다
 
-- Define the hypothesis, target universe, holding period, rebalance logic, and expected transmission mechanism.
-- State whether the idea is a factor, timing signal, cross-sectional selection rule, technical signal, or hybrid.
+- 가설, 대상 유니버스, 보유 기간, 리밸런싱 로직, 예상 전달 메커니즘을 정의한다.
+- 아이디어가 팩터, 타이밍 시그널, 횡단면 종목 선택 규칙, 기술적 시그널, 혹은 혼합형 중 무엇인지 명시한다.
 
-### 2. Check economic and asset-pricing logic
+### 2. 경제적 논리와 자산가격결정 논리를 점검한다
 
-- Decide whether the idea is grounded in factor exposure, behavioral mispricing, structural friction, or market microstructure.
-- Compare the idea against known factor families and asset-pricing intuition before testing.
+- 아이디어가 팩터 노출, 행동적 미스프라이싱, 구조적 마찰, 시장 미시구조 중 어디에 근거하는지 판단한다.
+- 테스트 전에 아이디어를 알려진 팩터군 및 자산가격결정 직관과 비교한다.
 
-### 3. Define the signal precisely
+### 3. 시그널을 정밀하게 정의한다
 
-- Specify inputs, transformations, ranking logic, thresholds, lags, and implementation timing.
-- Ensure the signal can be reproduced without hidden discretion.
+- 입력값, 변환, 순위 산정 로직, 임계값, 시차, 실행 시점을 명시한다.
+- 숨겨진 재량 없이 시그널을 재현할 수 있도록 한다.
 
-### 4. Clean the data and define the test design
+### 4. 데이터를 정제하고 테스트 설계를 정의한다
 
-- Enforce point-in-time correctness.
-- Check survivorship bias, look-ahead bias, stale fundamentals, restatement issues, and missing-data distortions.
-- Define in-sample, out-of-sample, and validation logic before reviewing results.
+- 시점 정합성(point-in-time correctness)을 엄격히 지킨다.
+- 생존 편향, 미래 참조 편향, 갱신되지 않은 펀더멘털, 재작성(restatement) 문제, 결측 데이터 왜곡을 점검한다.
+- 결과를 검토하기 전에 표본 내, 표본 외(out-of-sample), 검증 로직을 먼저 정의한다.
 
-### 5. Run the backtest and validation stack
+### 5. 백테스트와 검증 절차를 수행한다
 
-- Evaluate return, risk, turnover, capacity, cost sensitivity, and benchmark-relative behavior.
-- Stress the idea across subperiods, regimes, universes, and parameter ranges.
-- Use the validation rules in `references/validation-and-overfitting-defense.md`.
+- 수익률, 리스크, 회전율, 운용 가능 규모(capacity), 비용 민감도, 벤치마크 대비 움직임을 평가한다.
+- 하위 기간, 국면, 유니버스, 파라미터 범위 전반에 걸쳐 아이디어에 스트레스를 가한다.
+- `references/validation-and-overfitting-defense.md`의 검증 규칙을 사용한다.
 
-### 6. Decompose what is really driving returns
+### 6. 실제 수익률 동인을 분해한다
 
-- Determine whether performance comes from intended factor exposure, hidden beta, crowding, leverage, volatility selling, or timing luck.
-- Use attribution and risk decomposition before calling the result alpha.
+- 성과가 의도한 팩터 노출, 숨겨진 베타, 쏠림, 레버리지, 변동성 매도, 타이밍상의 운 중 어디에서 비롯되는지 판단한다.
+- 결과를 알파라고 부르기 전에 성과 요인 분석과 리스크 분해를 수행한다.
 
-### 7. Make the research decision
+### 7. 리서치 결정을 내린다
 
-- Conclude with one of: keep researching, conditionally promising, likely overfit, implementation weak, or reject.
-- Use the output structure in `references/output-contract.md`.
+- 다음 중 하나로 결론을 내린다: 리서치 지속(keep researching), 조건부 유망(conditionally promising), 과적합 가능성 높음(likely overfit), 실행력 취약(implementation weak), 기각(reject).
+- `references/output-contract.md`의 출력 구조를 사용한다.
 
-## Required References
+## 필수 참고 자료
 
-- Read `references/integrated-framework.md` for the full research stack.
-- Read `references/validation-and-overfitting-defense.md` for robustness and anti-overfitting rules.
-- Read `references/data-hygiene-risk-and-attribution.md` for data controls, risk modeling, and attribution.
-- Read `references/output-contract.md` for required output behavior.
+- 전체 리서치 체계는 `references/integrated-framework.md`를 참조한다.
+- 견고성 및 과적합 방지 규칙은 `references/validation-and-overfitting-defense.md`를 참조한다.
+- 데이터 통제, 리스크 모델링, 성과 요인 분석은 `references/data-hygiene-risk-and-attribution.md`를 참조한다.
+- 필수 출력 요건은 `references/output-contract.md`를 참조한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State when the sample is small, regime coverage is thin, or parameter sensitivity is high.
-- State when evidence is suggestive rather than conclusive.
-- Separate empirical stability from economic plausibility.
-- Explicitly note when live implementation friction may erase paper alpha.
+- 표본이 작거나, 국면 포괄 범위가 얇거나, 파라미터 민감도가 높으면 이를 명시한다.
+- 근거가 결정적이라기보다 시사적인 수준이면 이를 명시한다.
+- 실증적 안정성과 경제적 타당성을 구분한다.
+- 실제 운용상의 마찰로 서류상의 알파가 사라질 수 있다면 이를 명확히 지적한다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not fabricate performance metrics, factor loadings, transaction costs, or validation results.
-- Tag statements as `[actual]`, `[inference]`, or `[assumption]`.
-- Use `[actual]` only for verified data or directly observed test output.
-- Use `[inference]` for reasoned conclusions drawn from the evidence.
-- Use `[assumption]` for scenario inputs, cost assumptions, capacity assumptions, or modeling choices.
-- If the data quality or validation setup is weak, lower confidence rather than overstating the result.
+- 성과 지표, 팩터 노출도(factor loading), 거래비용, 검증 결과를 지어내지 않는다.
+- 각 진술에 `[actual]`, `[inference]`, `[assumption]` 태그를 붙인다.
+- `[actual]`은 검증된 데이터나 직접 관찰한 테스트 결과에만 사용한다.
+- `[inference]`는 근거로부터 도출한 논리적 결론에 사용한다.
+- `[assumption]`은 시나리오 입력값, 비용 가정, 운용 규모 가정, 모델링 선택에 사용한다.
+- 데이터 품질이나 검증 설계가 취약하면 결과를 과장하지 말고 확신 수준을 낮춘다.

@@ -1,61 +1,61 @@
 ---
 name: rakesh-jhunjhunwala
-description: Analyze an investment through Rakesh Jhunjhunwala's long-term growth-and-value lens. Use when the analysis should focus on circle of competence, economic moat, management quality, financial strength, margin of safety, return metrics such as ROE, and whether the business can create long-term wealth rather than short-term trading excitement.
+description: 라케시 준준왈라(Rakesh Jhunjhunwala)의 장기 성장·가치 관점으로 투자 대상을 분석한다. 능력범위(circle of competence), 경제적 해자(economic moat), 경영진의 질, 재무 건전성, 안전마진(margin of safety), ROE 같은 수익성 지표, 그리고 해당 사업이 단기 트레이딩의 흥분이 아닌 장기적인 부를 창출할 수 있는지에 초점을 맞춰야 할 때 사용한다.
 ---
 
-# Rakesh Jhunjhunwala
+# 라케시 준준왈라(Rakesh Jhunjhunwala)
 
-## Overview
+## 개요
 
-Use this skill to evaluate whether a business combines durable growth, sound management, and sensible valuation in a way that can build wealth over time.
+이 스킬은 해당 기업이 지속 가능한 성장, 건전한 경영, 합리적인 밸류에이션을 결합해 시간이 지남에 따라 부를 쌓을 수 있는지 평가할 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Stay inside the circle of competence.
-- Favor businesses, not ticker excitement.
-- Demand financial strength, quality management, and durable moat.
-- Respect valuation and margin of safety even when growth is attractive.
-- Think in terms of long-term wealth creation, not quick flips.
+- 능력범위 안에 머무른다.
+- 종목 시세의 흥분이 아니라 사업 자체를 중시한다.
+- 재무 건전성, 우수한 경영진, 지속 가능한 해자를 요구한다.
+- 성장이 매력적이더라도 밸류에이션과 안전마진을 존중한다.
+- 단기 매매가 아니라 장기적 부의 창출 관점에서 생각한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Check understandability and quality
+### 1. 이해 가능성과 품질 점검
 
-- Decide whether the business is understandable and worth owning for the long term.
-- Evaluate moat, business model durability, and growth runway.
+- 사업이 이해 가능하며 장기적으로 보유할 가치가 있는지 판단한다.
+- 해자, 비즈니스 모델의 지속성, 성장 여력을 평가한다.
 
-### 2. Judge management and stewardship
+### 2. 경영진과 경영 관리 판단
 
-- Assess management quality, governance, and shareholder orientation.
-- Prefer disciplined operators over promotional storytellers.
+- 경영진의 질, 지배구조, 주주 지향성을 평가한다.
+- 홍보에 능한 이야기꾼보다 규율 있는 경영자를 선호한다.
 
-### 3. Review financial strength
+### 3. 재무 건전성 검토
 
-- Examine leverage, returns on capital, profitability, and consistency of growth.
-- Favor businesses that can fund growth without balance-sheet strain.
+- 레버리지, 자본이익률(returns on capital), 수익성, 성장의 일관성을 살펴본다.
+- 재무상태표에 무리를 주지 않고 성장 자금을 조달할 수 있는 사업을 선호한다.
 
-### 4. Review valuation and margin of safety
+### 4. 밸류에이션과 안전마진 검토
 
-- Judge whether the current price leaves room for long-term compounding returns.
-- Avoid paying any price simply because the story is strong.
+- 현재 주가가 장기 복리 수익의 여지를 남기는지 판단한다.
+- 스토리가 강하다는 이유만으로 어떤 가격이든 지불하는 일은 피한다.
 
-### 5. Make the decision
+### 5. 의사결정
 
-- End with a stance and explain whether the business is a high-quality long-term compounding candidate, too expensive, or not good enough.
+- 입장을 밝히며 마무리하고, 이 기업이 고품질 장기 복리 성장 후보인지, 너무 비싼지, 충분히 좋지 않은지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when the business is understandable, well managed, financially strong, and still available at a sensible valuation.
-- Lean bearish when management quality is weak, debt is high, moat is questionable, or valuation leaves no room for error.
-- Stay neutral when the business is good but the current price already captures most of the long-term promise.
+- 사업이 이해 가능하고, 경영이 잘 되며, 재무적으로 견실하고, 여전히 합리적인 밸류에이션에 매수 가능하면 강세 쪽으로 기운다.
+- 경영진의 질이 약하거나, 부채가 많거나, 해자가 의심스럽거나, 밸류에이션이 오류에 대한 여유를 남기지 않으면 약세 쪽으로 기운다.
+- 사업은 우수하지만 현재 주가가 장기적 잠재력의 대부분을 이미 반영하고 있으면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State when the moat, governance, or growth persistence is harder to judge than it first appears.
-- Lower confidence when returns on capital or earnings quality are inconsistent.
+- 해자, 지배구조, 성장의 지속성이 처음 보기보다 판단하기 어려운 경우 이를 명시한다.
+- 자본이익률이나 이익의 질이 일관되지 않으면 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent ROE strength, management quality, or valuation comfort.
-- Distinguish verified business quality from optimistic long-term storytelling.
-- If competence is limited or evidence is mixed, say so directly.
+- ROE의 우수성, 경영진의 질, 밸류에이션상의 안도감을 지어내지 않는다.
+- 검증된 사업의 질과 낙관적인 장기 스토리텔링을 구분한다.
+- 능력범위가 제한적이거나 증거가 엇갈린다면 이를 직접적으로 밝힌다.

@@ -1,123 +1,123 @@
-# Integrated Framework
+# 통합 프레임워크
 
-## Table of Contents
+## 목차
 
-- Research objective
-- Module A: Factor and Asset-Pricing Logic
-- Module B: Signal Research
-- Module C: Backtesting
-- Module D: Technical Signals
-- Module E: Decision Framing
+- 리서치 목표
+- 모듈 A: 팩터 및 자산가격결정 논리
+- 모듈 B: 시그널 리서치
+- 모듈 C: 백테스트
+- 모듈 D: 기술적 시그널
+- 모듈 E: 의사결정 프레이밍
 
-## Research objective
+## 리서치 목표
 
-The goal is not to find the prettiest backtest. The goal is to determine whether a quantitative idea is economically grounded, statistically credible, robust across conditions, and realistically implementable.
+목표는 가장 보기 좋은 백테스트를 찾는 것이 아니다. 목표는 계량 아이디어가 경제적 근거를 갖추고, 통계적으로 신뢰할 수 있으며, 다양한 여건에서 견고하고, 현실적으로 실행 가능한지 판단하는 것이다.
 
-## Module A: Factor and Asset-Pricing Logic
+## 모듈 A: 팩터 및 자산가격결정 논리
 
-Start by asking what should explain returns if the idea is real.
+아이디어가 실재한다면 무엇이 수익률을 설명해야 하는지 묻는 것에서 시작한다.
 
-Core buckets:
+핵심 범주:
 
-- market beta
-- size
-- value
-- momentum
-- profitability / quality
-- investment / asset growth
-- carry / yield
-- defensive / low-risk
+- 시장 베타
+- 규모(size)
+- 가치(value)
+- 모멘텀(momentum)
+- 수익성 / 퀄리티
+- 투자 / 자산 성장
+- 캐리 / 수익률(yield)
+- 방어 / 저위험
 
-Required questions:
+필수 질문:
 
-- Is this signal just a known factor in disguise?
-- Does the return driver match an asset-pricing or behavioral story?
-- Is the signal likely structural, cyclical, or regime-dependent?
+- 이 시그널은 단지 위장된 기존 팩터인가?
+- 수익률 동인이 자산가격결정 또는 행동재무학적 설명과 부합하는가?
+- 시그널은 구조적인가, 경기순환적인가, 국면 의존적인가?
 
-Decision rules:
+판단 규칙:
 
-- If a signal has no plausible mechanism, raise the evidence bar.
-- If a signal is mostly known factor exposure, say so and evaluate whether that is acceptable rather than pretending it is novel alpha.
-- If the signal depends on stable market ecology, note the adaptive-market risk.
+- 시그널에 개연성 있는 메커니즘이 없다면 요구되는 근거 수준을 높인다.
+- 시그널이 대부분 알려진 팩터 노출이라면, 새로운 알파인 것처럼 꾸미지 말고 이를 밝힌 뒤 그것이 수용 가능한지 평가한다.
+- 시그널이 안정적인 시장 생태계에 의존한다면 적응적 시장(adaptive market) 리스크를 지적한다.
 
-## Module B: Signal Research
+## 모듈 B: 시그널 리서치
 
-Turn the idea into a precise, testable object.
+아이디어를 정밀하고 검증 가능한 대상으로 전환한다.
 
-Specify:
+명시 항목:
 
-- universe
-- frequency
-- ranking or threshold logic
-- lag structure
-- rebalance timing
-- neutralization rules
-- portfolio-construction rules
+- 유니버스
+- 빈도
+- 순위 산정 또는 임계값 로직
+- 시차 구조
+- 리밸런싱 시점
+- 중립화 규칙
+- 포트폴리오 구성 규칙
 
-Required tests:
+필수 테스트:
 
-- monotonicity
-- persistence
-- breadth across assets or sectors
-- sensitivity to parameter changes
-- robustness to alternative definitions
+- 단조성(monotonicity)
+- 지속성
+- 자산 또는 섹터 전반에 걸친 범용성
+- 파라미터 변경에 대한 민감도
+- 대안적 정의에 대한 견고성
 
-Decision rules:
+판단 규칙:
 
-- Prefer simple signals with stable behavior over fragile complex signals.
-- Require the signal to survive reasonable parameter variation.
-- If the edge exists only in a narrow slice of history, flag regime fragility.
+- 취약하고 복잡한 시그널보다 안정적으로 작동하는 단순한 시그널을 우선한다.
+- 합리적인 파라미터 변동 하에서도 시그널이 살아남을 것을 요구한다.
+- 우위가 역사의 좁은 구간에서만 존재한다면 국면 취약성을 지적한다.
 
-## Module C: Backtesting
+## 모듈 C: 백테스트
 
-Treat backtests as validation tools, not proof.
+백테스트를 증명이 아니라 검증 도구로 취급한다.
 
-Check:
+점검 항목:
 
-- absolute and benchmark-relative performance
-- volatility
-- drawdown
-- turnover
-- capacity
-- transaction-cost sensitivity
-- subperiod stability
-- out-of-sample behavior
+- 절대 성과 및 벤치마크 대비 성과
+- 변동성
+- 낙폭
+- 회전율
+- 운용 가능 규모
+- 거래비용 민감도
+- 하위 기간별 안정성
+- 표본 외 움직임
 
-Required questions:
+필수 질문:
 
-- Does the result survive costs and implementation frictions?
-- Is the performance concentrated in one episode?
-- Is the result still meaningful after realistic constraints?
+- 결과가 비용과 실행상의 마찰을 감안해도 유지되는가?
+- 성과가 하나의 에피소드에 집중되어 있는가?
+- 현실적인 제약을 적용한 후에도 결과가 여전히 유의미한가?
 
-## Module D: Technical Signals
+## 모듈 D: 기술적 시그널
 
-Treat technical analysis as rule-based signal extraction, not discretionary storytelling.
+기술적 분석을 재량적 스토리텔링이 아니라 규칙 기반 시그널 추출로 취급한다.
 
-Candidate buckets:
+후보 범주:
 
-- trend
-- momentum
-- mean reversion
-- volatility breakout
-- market breadth
-- support / resistance logic
+- 추세
+- 모멘텀
+- 평균 회귀
+- 변동성 돌파
+- 시장 폭
+- 지지 / 저항 로직
 
-Rules:
+규칙:
 
-- Define technical rules precisely enough to test.
-- Use confirmation logic rather than single-indicator absolutism.
-- Separate chart description from testable signal behavior.
+- 기술적 규칙은 테스트할 수 있을 만큼 정밀하게 정의한다.
+- 단일 지표 절대주의보다 확인(confirmation) 로직을 사용한다.
+- 차트 묘사와 검증 가능한 시그널 동작을 구분한다.
 
-## Module E: Decision Framing
+## 모듈 E: 의사결정 프레이밍
 
-End by deciding what the research result means.
+리서치 결과가 무엇을 의미하는지 결정하는 것으로 마무리한다.
 
-Allowed conclusions:
+허용되는 결론:
 
-- keep researching
-- conditionally promising
-- likely overfit
-- implementation weak
-- reject
+- 리서치 지속(keep researching)
+- 조건부 유망(conditionally promising)
+- 과적합 가능성 높음(likely overfit)
+- 실행력 취약(implementation weak)
+- 기각(reject)
 
-The final call must reflect evidence quality, not excitement.
+최종 판단은 기대감이 아니라 근거의 질을 반영해야 한다.

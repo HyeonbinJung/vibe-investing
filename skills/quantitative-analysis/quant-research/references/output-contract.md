@@ -1,91 +1,91 @@
-# Output Contract
+# 출력 계약
 
-## Required behavior
+## 필수 동작
 
-Always produce the analysis in this order:
+분석은 항상 다음 순서로 작성한다.
 
-1. Research question
-2. Economic rationale
-3. Signal definition
-4. Validation summary
-5. Overfitting and data-quality risks
-6. Risk and attribution summary
-7. Final decision
-8. What to test next
+1. 리서치 질문
+2. 경제적 근거
+3. 시그널 정의
+4. 검증 요약
+5. 과적합 및 데이터 품질 리스크
+6. 리스크 및 성과 요인 요약
+7. 최종 결정
+8. 다음 테스트 항목
 
-## Required output shape
+## 필수 출력 형태
 
-Start with:
+다음으로 시작한다.
 
-Research Question:
+리서치 질문:
 
-Then write:
+이어서 다음을 작성한다.
 
-- what the hypothesis is
-- what asset universe and horizon it targets
+- 가설이 무엇인지
+- 어떤 자산 유니버스와 투자 기간을 대상으로 하는지
 
-Next section:
+다음 섹션:
 
-Economic Rationale:
+경제적 근거:
 
-- explain why the signal should work
-- note whether it maps to known factor logic, behavioral logic, or market-structure logic
+- 시그널이 왜 작동해야 하는지 설명한다
+- 알려진 팩터 논리, 행동재무학적 논리, 시장 구조 논리 중 무엇에 대응하는지 밝힌다
 
-Next section:
+다음 섹션:
 
-Signal Definition:
+시그널 정의:
 
-- define inputs, transformations, ranking logic, and timing
+- 입력값, 변환, 순위 산정 로직, 시점을 정의한다
 
-Next section:
+다음 섹션:
 
-Validation Summary:
+검증 요약:
 
-- summarize what the backtest suggests
-- identify whether the evidence is strong, mixed, or weak
+- 백테스트가 시사하는 바를 요약한다
+- 근거가 강한지, 혼재되어 있는지, 약한지 판별한다
 
-Next section:
+다음 섹션:
 
-Overfitting and Data Risks:
+과적합 및 데이터 리스크:
 
-- list the most important overfitting threats
-- list data-pipeline risks
+- 가장 중요한 과적합 위협을 나열한다
+- 데이터 파이프라인 리스크를 나열한다
 
-Next section:
+다음 섹션:
 
-Risk and Attribution:
+리스크 및 성과 요인:
 
-- summarize beta, factor, drawdown, or implementation exposures
-- state what appears to be driving returns
+- 베타, 팩터, 낙폭, 실행상의 노출을 요약한다
+- 무엇이 수익률을 견인하는 것으로 보이는지 밝힌다
 
-Final section:
+마지막 섹션:
 
-Decision:
+결정:
 
-Use one of these endings:
+다음 중 하나로 마무리한다.
 
-- keep researching
-- conditionally promising
-- likely overfit
-- implementation weak
-- reject
+- 리서치 지속(keep researching)
+- 조건부 유망(conditionally promising)
+- 과적합 가능성 높음(likely overfit)
+- 실행력 취약(implementation weak)
+- 기각(reject)
 
-Then add:
+이어서 다음을 추가한다.
 
-What to Test Next:
+다음 테스트 항목:
 
-- list two to four concrete next checks
+- 구체적인 후속 점검 항목 2~4개를 나열한다
 
-## Evidence tagging
+## 근거 태그
 
-Tag statements as:
+각 진술에 다음 태그를 붙인다.
 
 - `[actual]`
 - `[inference]`
 - `[assumption]`
 
-Rules:
+규칙:
 
-- do not invent backtest metrics or validation results
-- do not overclaim robustness from one strong chart
-- lower confidence when data quality, sample coverage, or implementation realism is weak
+- 백테스트 지표나 검증 결과를 지어내지 않는다
+- 하나의 인상적인 차트만으로 견고성을 과장하지 않는다
+- 데이터 품질, 표본 포괄 범위, 실행 현실성이 취약하면 확신 수준을 낮춘다

@@ -1,29 +1,29 @@
-# Output Formats Category Guide
+# 출력 형식 카테고리 가이드
 
-## Scope
+## 적용 범위
 
-- Apply these rules to `skills/output-formats/` and its descendants unless a deeper file overrides them.
+- 하위 파일이 별도로 규정하지 않는 한, 이 규칙을 `skills/output-formats/` 및 그 하위 항목에 적용한다.
 
-## Purpose
+## 목적
 
-- Store skills that package investing content into reusable output styles.
+- 투자 콘텐츠를 재사용 가능한 출력 스타일로 패키징하는 스킬을 보관한다.
 
-## Include Here
+## 포함 대상
 
-- Securities-firm style reports
-- Reusable memo or briefing structures
-- Publishable output packaging patterns
-- Chart-rich financial report layouts and exhibit packaging
+- 증권사 스타일 리포트
+- 재사용 가능한 메모 또는 브리핑 구조
+- 퍼블리싱 가능한 출력 패키징 패턴
+- 차트 중심 금융 리포트 레이아웃과 도표(exhibit) 패키징
 
-## Ownership
+## 담당 범위
 
-- Own output structure, layout logic, title treatment, table placement, disclaimer handling, and publishable presentation patterns.
-- Assume the core investing analysis already exists upstream.
-- Produce a structured result that can later be handed to an external `docx`, `pdf`, or spreadsheet skill if a concrete file artifact is required.
-- Cover chart selection and exhibit placement when that improves the report output.
+- 출력 구조, 레이아웃 로직, 제목 처리, 표 배치, 면책 문구 처리, 퍼블리싱 가능한 표현 패턴을 담당한다.
+- 핵심 투자 분석은 상위 단계에서 이미 완료된 것으로 전제한다.
+- 구체적인 파일 산출물이 필요한 경우 이후 외부 `docx`, `pdf` 또는 스프레드시트 스킬에 넘길 수 있는 구조화된 결과를 산출한다.
+- 리포트 산출물의 품질을 높이는 경우 차트 선정과 도표 배치까지 다룬다.
 
-## Rules
+## 규칙
 
-- Do not let file-extension concerns dominate the skill design.
-- Keep output-style instructions reusable across many investing use cases.
-- Make it easy for an agent to pass the result into an external formatting skill afterward.
+- 파일 확장자 문제가 스킬 설계를 좌우하지 않도록 한다.
+- 출력 스타일 지침은 다양한 투자 활용 사례에 재사용할 수 있도록 유지한다.
+- 에이전트가 결과물을 이후 외부 서식 스킬에 쉽게 전달할 수 있도록 한다.

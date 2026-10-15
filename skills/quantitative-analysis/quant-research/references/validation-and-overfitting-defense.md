@@ -1,65 +1,65 @@
-# Validation and Overfitting Defense
+# 검증 및 과적합 방어
 
-## Table of Contents
+## 목차
 
-- Validation hierarchy
-- Overfitting checklist
-- Statistical caution flags
-- Robustness tests
-- Decision rules
+- 검증 위계
+- 과적합 체크리스트
+- 통계적 주의 신호
+- 견고성 테스트
+- 판단 규칙
 
-## Validation hierarchy
+## 검증 위계
 
-Use this order:
+다음 순서를 따른다.
 
-1. in-sample hypothesis development
-2. out-of-sample testing
-3. walk-forward or rolling validation
-4. regime and subperiod stress tests
-5. implementation realism checks
+1. 표본 내 가설 개발
+2. 표본 외 테스트
+3. 워크포워드(walk-forward) 또는 롤링 검증
+4. 국면 및 하위 기간 스트레스 테스트
+5. 실행 현실성 점검
 
-Do not treat in-sample excellence as validation.
+표본 내의 우수한 성과를 검증으로 간주하지 않는다.
 
-## Overfitting checklist
+## 과적합 체크리스트
 
-Check for:
+다음을 점검한다.
 
-- too many parameter trials
-- data snooping
-- cherry-picked start or end dates
-- survivorship bias
-- look-ahead bias
-- target leakage
-- benchmark gaming
-- fragile threshold tuning
+- 과도한 파라미터 시행 횟수
+- 데이터 스누핑(data snooping)
+- 임의로 선별한 시작일 또는 종료일
+- 생존 편향
+- 미래 참조 편향
+- 타깃 누수(target leakage)
+- 벤치마크 악용(benchmark gaming)
+- 취약한 임계값 튜닝
 
-## Statistical caution flags
+## 통계적 주의 신호
 
-Raise caution when:
+다음의 경우 주의 수준을 높인다.
 
-- Sharpe ratio depends on one narrow episode
-- small changes in parameters destroy performance
-- effect disappears after costs
-- too many ideas were tried before the winner was selected
-- sample size is too short for the holding period
-- the strategy depends on unstable tail outcomes
+- 샤프 비율(Sharpe ratio)이 하나의 좁은 에피소드에 의존한다
+- 파라미터의 작은 변화가 성과를 무너뜨린다
+- 비용 반영 후 효과가 사라진다
+- 최종 승자를 고르기 전에 지나치게 많은 아이디어를 시도했다
+- 보유 기간에 비해 표본 기간이 너무 짧다
+- 전략이 불안정한 꼬리 결과에 의존한다
 
-## Robustness tests
+## 견고성 테스트
 
-Require some combination of:
+다음 중 일부를 조합하여 요구한다.
 
-- parameter stability
-- alternative universe test
-- alternative rebalance schedule
-- transaction-cost stress
-- delayed execution test
-- subperiod stability
-- factor-neutral or beta-adjusted check
-- attribution of returns
+- 파라미터 안정성
+- 대안 유니버스 테스트
+- 대안 리밸런싱 일정
+- 거래비용 스트레스
+- 지연 체결 테스트
+- 하위 기간별 안정성
+- 팩터 중립 또는 베타 조정 점검
+- 수익률 요인 분석
 
-## Decision rules
+## 판단 규칙
 
-- If the idea survives only one exact specification, treat it as likely overfit.
-- If the signal works before costs but not after costs, call implementation weak rather than promising.
-- If the signal survives broad perturbations and the economic rationale still fits, mark it conditionally promising.
-- If the edge disappears after proper data hygiene or out-of-sample testing, reject it.
+- 아이디어가 단 하나의 정확한 설정에서만 살아남는다면 과적합 가능성이 높은 것으로 취급한다.
+- 시그널이 비용 반영 전에는 작동하지만 반영 후에는 작동하지 않는다면 유망이 아니라 실행력 취약으로 판정한다.
+- 시그널이 광범위한 교란에도 살아남고 경제적 근거가 여전히 부합한다면 조건부 유망으로 표시한다.
+- 적절한 데이터 위생 조치나 표본 외 테스트 후 우위가 사라진다면 기각한다.

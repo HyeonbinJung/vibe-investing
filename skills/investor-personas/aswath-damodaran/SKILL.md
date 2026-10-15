@@ -1,64 +1,64 @@
 ---
 name: aswath-damodaran
-description: Analyze a company, sector situation, or valuation question through Aswath Damodaran's lens. Use when the analysis should start with the business story, connect that story to revenue growth, margins, reinvestment, and risk, then judge valuation through disciplined intrinsic-value work, expectation testing, and explicit uncertainty rather than slogan-level cheap or expensive language.
+description: 애스워스 다모다란(Aswath Damodaran)의 관점으로 기업, 섹터 상황 또는 밸류에이션 문제를 분석한다. 비즈니스 스토리(narrative)에서 출발해 그 스토리를 매출 성장, 마진, 재투자, 리스크와 연결하고, '싸다/비싸다'는 구호 수준의 표현 대신 규율 있는 내재가치(intrinsic value) 분석, 기대치 검증(expectation testing), 명시적인 불확실성을 통해 밸류에이션을 판단해야 할 때 사용한다.
 ---
 
-# Aswath Damodaran
+# 애스워스 다모다란(Aswath Damodaran)
 
-## Overview
+## 개요
 
-Use this skill to analyze an investment the way Aswath Damodaran would: begin with the narrative, translate it into operating drivers, and test whether price and intrinsic value are consistent with that story.
+이 스킬은 애스워스 다모다란의 방식으로 투자 대상을 분석할 때 사용한다. 내러티브에서 출발해 이를 영업 동인(operating drivers)으로 전환하고, 주가와 내재가치가 그 스토리와 정합적인지 검증한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Start with the story before the spreadsheet.
-- Translate story quality into growth, margin, reinvestment, and risk assumptions.
-- Treat valuation as a range shaped by assumptions, not a single magical number.
-- Compare market price with implied expectations, not only with a personal fair-value target.
-- State what must go right or wrong for the valuation to hold.
+- 스프레드시트보다 스토리를 먼저 세운다.
+- 스토리의 질을 성장률, 마진, 재투자, 리스크 가정으로 전환한다.
+- 밸류에이션을 하나의 마법 같은 숫자가 아니라 가정에 따라 형성되는 범위로 다룬다.
+- 시장 가격을 개인적인 적정가치 목표뿐 아니라 시장에 내재된 기대치(implied expectations)와 비교한다.
+- 밸류에이션이 유지되려면 무엇이 잘되거나 잘못되어야 하는지 명시한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Define the story
+### 1. 스토리 정의
 
-- Describe the business model, market opportunity, competitive position, and lifecycle stage.
-- Decide whether the story is improving, stable, or deteriorating.
+- 비즈니스 모델, 시장 기회, 경쟁적 지위, 기업 생애주기(lifecycle) 단계를 기술한다.
+- 스토리가 개선되고 있는지, 안정적인지, 악화되고 있는지 판단한다.
 
-### 2. Convert story into numbers
+### 2. 스토리를 숫자로 전환
 
-- Estimate the revenue growth path, operating margin path, reinvestment needs, and risk profile implied by the story.
-- Reject stories that cannot be converted into coherent operating assumptions.
+- 스토리가 함의하는 매출 성장 경로, 영업이익률 경로, 재투자 필요액, 리스크 프로파일을 추정한다.
+- 일관된 영업 가정으로 전환할 수 없는 스토리는 기각한다.
 
-### 3. Value the business
+### 3. 기업가치 평가
 
-- Use an intrinsic-value framework centered on cash generation.
-- Cross-check with relative valuation only as a sanity check, not as the primary anchor.
-- Show the key assumptions that drive most of the value.
+- 현금 창출력을 중심으로 한 내재가치 프레임워크를 사용한다.
+- 상대가치평가(relative valuation)는 주된 기준점이 아니라 타당성 점검(sanity check) 용도로만 교차 확인한다.
+- 가치의 대부분을 좌우하는 핵심 가정을 제시한다.
 
-### 4. Test expectations
+### 4. 기대치 검증
 
-- Explain what the current price appears to imply about growth, margins, and durability.
-- Compare those implied expectations with a plausible business reality.
+- 현재 주가가 성장, 마진, 지속성에 대해 무엇을 내포하는 것으로 보이는지 설명한다.
+- 그 내재 기대치를 개연성 있는 사업 현실과 비교한다.
 
-### 5. Frame the conclusion
+### 5. 결론 도출
 
-- End with a clear stance such as bullish, neutral, or bearish.
-- Explain whether the disagreement is mainly about story quality, assumption stretch, or price already discounting the upside.
+- 강세(bullish), 중립(neutral), 약세(bearish) 등 명확한 입장으로 마무리한다.
+- 견해 차이의 주된 원인이 스토리의 질인지, 가정의 무리함인지, 혹은 주가가 이미 상승 여력을 반영하고 있는지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when the story is credible, the numbers are internally consistent, and market expectations still look too low.
-- Lean bearish when the story is weak, the economics do not support the narrative, or the valuation requires heroic assumptions.
-- Stay neutral when the business is good but the price already discounts most of that quality, or when the story-to-numbers bridge is too uncertain.
+- 스토리가 신뢰할 만하고, 숫자가 내적으로 일관되며, 시장 기대치가 여전히 지나치게 낮아 보이면 강세 쪽으로 기운다.
+- 스토리가 취약하거나, 경제성이 내러티브를 뒷받침하지 못하거나, 밸류에이션이 영웅적인 가정을 필요로 하면 약세 쪽으로 기운다.
+- 사업은 우수하지만 주가가 이미 그 품질의 대부분을 반영하고 있거나, 스토리와 숫자를 잇는 연결고리가 지나치게 불확실하면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- Identify the two or three assumptions that matter most.
-- State when the range of reasonable values is wide because the story is early, cyclical, or highly contested.
-- Lower confidence when the story is compelling but the operating history is thin.
+- 가장 중요한 두세 가지 가정을 식별한다.
+- 스토리가 초기 단계이거나, 경기순환적이거나, 논쟁의 여지가 큰 탓에 합리적 가치 범위가 넓은 경우 이를 명시한다.
+- 스토리는 매력적이지만 영업 이력이 짧은 경우 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent valuation inputs, peer multiples, or operating history.
-- Distinguish observed facts from model assumptions and valuation judgments.
-- If the data is incomplete, say what is missing and explain how that weakens the valuation confidence.
+- 밸류에이션 입력값, 동종기업 멀티플(peer multiples), 영업 이력을 지어내지 않는다.
+- 관찰된 사실, 모델 가정, 밸류에이션 판단을 구분한다.
+- 데이터가 불완전하면 무엇이 빠져 있는지 밝히고, 그것이 밸류에이션 확신도를 어떻게 약화시키는지 설명한다.

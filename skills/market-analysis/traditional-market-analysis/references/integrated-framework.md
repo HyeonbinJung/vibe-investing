@@ -1,174 +1,174 @@
-# Integrated Framework
+# 통합 프레임워크
 
-## Table of Contents
+## 목차
 
-- Analytical objective
-- Module A: Market Regime
-- Module B: Cycles and Pendulum
-- Module C: Expectations and Reality Gap
-- Module D: Liquidity and Macro Transmission
-- Module E: Positioning and Risk Asymmetry
-- Module F: Reflexive Feedback Loops
-- Module G: Decision Framing
+- 분석 목표
+- 모듈 A: 시장 국면
+- 모듈 B: 사이클과 진자
+- 모듈 C: 기대와 현실의 괴리
+- 모듈 D: 유동성과 매크로 전달 경로
+- 모듈 E: 포지셔닝과 리스크 비대칭성
+- 모듈 F: 재귀적 피드백 루프
+- 모듈 G: 의사결정 프레이밍
 
-## Analytical objective
+## 분석 목표
 
-The goal is not to produce generic macro commentary. The goal is to answer:
+목표는 일반론적인 매크로 코멘터리를 생산하는 것이 아니다. 목표는 다음 질문에 답하는 것이다.
 
-What does this market context mean for the investment case right now?
+이 시장 맥락은 지금 이 투자 아이디어에 어떤 의미를 갖는가?
 
-Use the framework as one integrated stack, not as isolated boxes.
+프레임워크를 서로 분리된 상자들이 아니라 하나의 통합된 체계로 사용한다.
 
-## Module A: Market Regime
+## 모듈 A: 시장 국면
 
-Identify the dominant regime first.
+먼저 지배적인 국면을 식별한다.
 
-Possible regime labels:
+가능한 국면 분류:
 
-- risk-on
-- risk-off
-- tightening
-- easing
-- reflation
-- disinflation
-- early-cycle
-- late-cycle
-- structurally transitioning
+- 위험선호(risk-on)
+- 위험회피(risk-off)
+- 긴축(tightening)
+- 완화(easing)
+- 리플레이션(reflation)
+- 디스인플레이션(disinflation)
+- 사이클 초기(early-cycle)
+- 사이클 후기(late-cycle)
+- 구조적 전환(structurally transitioning)
 
-Required judgment:
+필수 판단:
 
-- Which regime is dominant?
-- Is the regime stable, fading, or shifting?
-- Does the environment amplify or weaken equity or risk-asset upside?
+- 어떤 국면이 지배적인가?
+- 해당 국면은 안정적인가, 약화되고 있는가, 전환 중인가?
+- 현재 환경은 주식 또는 위험자산의 상승 여력을 증폭하는가, 약화하는가?
 
-Decision rules:
+판단 규칙:
 
-- If liquidity is expanding, real rates are easing, and breadth is improving, the backdrop usually supports valuation expansion.
-- If policy is restrictive, financing conditions are worsening, and breadth narrows while leadership becomes fragile, the backdrop usually weakens upside quality.
-- If the regime appears to be changing, emphasize transition risk rather than static labels.
+- 유동성이 확대되고, 실질금리가 완화되며, 시장 폭(breadth)이 개선되고 있다면, 이러한 환경은 대체로 밸류에이션 확장을 지지한다.
+- 정책이 제약적이고, 자금조달 여건이 악화되며, 시장 폭이 좁아지면서 주도주가 취약해진다면, 이러한 환경은 대체로 상승 여력의 질을 약화한다.
+- 국면이 바뀌고 있는 것으로 보이면, 정태적 분류보다 전환 리스크를 강조한다.
 
-## Module B: Cycles and Pendulum
+## 모듈 B: 사이클과 진자
 
-Assess where psychology sits between fear and greed.
+투자심리가 공포와 탐욕 사이 어디에 있는지 평가한다.
 
-Look for:
+확인 항목:
 
-- excessive comfort
-- excessive defensiveness
-- broad optimism
-- broad pessimism
-- complacency about downside
-- exhaustion after stress
+- 과도한 안주
+- 과도한 방어 성향
+- 광범위한 낙관
+- 광범위한 비관
+- 하방 리스크에 대한 안일함
+- 스트레스 이후의 소진
 
-Decision rules:
+판단 규칙:
 
-- When optimism is extreme and risk is dismissed, future returns usually become less attractive and downside asymmetry rises.
-- When pessimism is overextended and capital is scarce, asymmetry may improve even if the headlines remain negative.
-- Consensus comfort is a warning sign when the underlying thesis already depends on favorable conditions remaining favorable.
+- 낙관이 극단적이고 리스크가 무시될 때, 향후 수익률은 대체로 매력이 떨어지고 하방 비대칭성이 커진다.
+- 비관이 과도하고 자본이 희소할 때는, 헤드라인이 여전히 부정적이더라도 비대칭성이 개선될 수 있다.
+- 기본 투자 논리가 이미 우호적인 여건의 지속에 의존하고 있다면, 컨센서스의 안주는 경고 신호이다.
 
-## Module C: Expectations and Reality Gap
+## 모듈 C: 기대와 현실의 괴리
 
-Start by inferring what is already priced in.
+이미 가격에 반영된 내용을 추론하는 것에서 시작한다.
 
-Required questions:
+필수 질문:
 
-- What growth path does the market seem to expect?
-- What earnings or margin resilience is being assumed?
-- What policy or liquidity path is embedded?
-- Is the market discounting a clean soft landing, deep slowdown, policy pivot, or earnings reacceleration?
+- 시장은 어떤 성장 경로를 기대하고 있는 것으로 보이는가?
+- 어느 정도의 이익 또는 마진 회복력이 가정되어 있는가?
+- 어떤 정책 또는 유동성 경로가 반영되어 있는가?
+- 시장은 깔끔한 연착륙, 깊은 경기 둔화, 정책 전환(pivot), 이익 재가속 중 무엇을 할인하고 있는가?
 
-Decision rules:
+판단 규칙:
 
-- If expectations are already generous, good news may be less valuable than it appears.
-- If expectations are depressed, merely less-bad outcomes can create upside.
-- Use expectations language before cheap or expensive language.
+- 기대치가 이미 후하다면, 호재는 겉보기보다 가치가 작을 수 있다.
+- 기대치가 낮게 눌려 있다면, 단지 덜 나쁜 결과만으로도 상승 여력이 생길 수 있다.
+- 저평가·고평가 표현보다 기대치 관점의 표현을 먼저 사용한다.
 
-## Module D: Liquidity and Macro Transmission
+## 모듈 D: 유동성과 매크로 전달 경로
 
-Explain how macro forces are flowing into markets.
+매크로 요인이 시장으로 어떻게 흘러들고 있는지 설명한다.
 
-Focus on:
+중점 항목:
 
-- rates
-- credit spreads
-- liquidity availability
-- policy stance
-- inflation path
-- growth inflections
-- financing access
+- 금리
+- 신용 스프레드
+- 유동성 가용성
+- 정책 기조
+- 인플레이션 경로
+- 성장 변곡점
+- 자금조달 접근성
 
-Required question:
+필수 질문:
 
-How are these factors transmitting into valuation, earnings expectations, and leadership?
+이러한 요인들이 밸류에이션, 이익 기대치, 주도주로 어떻게 전달되고 있는가?
 
-Decision rules:
+판단 규칙:
 
-- Do not stop at saying rates are up or down. Explain how the rate move changes duration sensitivity, discount rates, financing conditions, and appetite for risk.
-- Prioritize regime shifts over static snapshots.
-- If liquidity and macro signals diverge from price behavior, flag the divergence rather than forcing a clean story.
+- 금리가 올랐다거나 내렸다는 서술에서 멈추지 않는다. 금리 변화가 듀레이션 민감도, 할인율, 자금조달 여건, 위험선호를 어떻게 바꾸는지 설명한다.
+- 정태적 스냅샷보다 국면 전환을 우선한다.
+- 유동성 및 매크로 신호가 가격 움직임과 괴리를 보이면, 억지로 깔끔한 스토리를 만들지 말고 그 괴리를 지적한다.
 
-## Module E: Positioning and Risk Asymmetry
+## 모듈 E: 포지셔닝과 리스크 비대칭성
 
-Evaluate the crowd and the payoff shape.
+시장 참여자 군중과 손익 구조(payoff shape)를 평가한다.
 
-Look for:
+확인 항목:
 
-- consensus strength
-- crowding
-- fragile leadership
-- narrow participation
-- under-owned recovery
-- over-owned quality or momentum
-- positioning that can fuel squeezes or air pockets
+- 컨센서스 강도
+- 쏠림(crowding)
+- 취약한 주도주
+- 좁은 시장 참여
+- 보유 비중이 낮은 회복 국면
+- 보유 비중이 과도한 퀄리티 또는 모멘텀
+- 숏 스퀴즈(squeeze)나 급락 공백(air pocket)을 유발할 수 있는 포지셔닝
 
-Required judgment:
+필수 판단:
 
-- Is upside or downside asymmetric from here?
-- Is the consensus too strong or too weak?
-- Is this a good asset but a bad trade right now?
+- 현 시점에서 상방 또는 하방이 비대칭적인가?
+- 컨센서스가 지나치게 강한가, 지나치게 약한가?
+- 좋은 자산이지만 지금은 나쁜 매매인가?
 
-Decision rules:
+판단 규칙:
 
-- Strong fundamentals do not automatically mean favorable entry if expectations and positioning are already crowded.
-- Weak sentiment does not automatically mean bullishness unless the downside is already well discounted.
+- 기대치와 포지셔닝이 이미 쏠려 있다면, 견고한 펀더멘털이 자동으로 유리한 진입 시점을 의미하지는 않는다.
+- 하방이 이미 충분히 할인되어 있지 않다면, 약한 투자심리가 자동으로 강세 근거가 되지는 않는다.
 
-## Module F: Reflexive Feedback Loops
+## 모듈 F: 재귀적 피드백 루프
 
-Check whether price is affecting fundamentals, not just reflecting them.
+가격이 펀더멘털을 단순히 반영하는 것을 넘어 펀더멘털에 영향을 미치고 있는지 점검한다.
 
-Positive loop examples:
+선순환 루프 예시:
 
-- rising price improves narrative credibility
-- stronger narrative improves financing access
-- easier financing supports investment or growth
-- stronger fundamentals then reinforce the price move
+- 가격 상승이 내러티브의 신뢰도를 높인다
+- 내러티브 강화가 자금조달 접근성을 개선한다
+- 자금조달 용이성이 투자 또는 성장을 뒷받침한다
+- 강화된 펀더멘털이 다시 가격 움직임을 강화한다
 
-Negative loop examples:
+악순환 루프 예시:
 
-- falling price damages confidence
-- weaker confidence tightens financing access
-- tighter financing reduces growth or resilience
-- weaker fundamentals then validate price weakness
+- 가격 하락이 신뢰를 훼손한다
+- 신뢰 약화가 자금조달 접근성을 위축시킨다
+- 자금조달 위축이 성장 또는 회복력을 떨어뜨린다
+- 약화된 펀더멘털이 다시 가격 약세를 정당화한다
 
-Decision rules:
+판단 규칙:
 
-- Identify whether the investment case is being reinforced or undermined by reflexive dynamics.
-- Reflexive loops are especially important in leverage, growth funding, and sentiment-heavy markets.
+- 투자 아이디어가 재귀적 동학에 의해 강화되고 있는지 훼손되고 있는지 식별한다.
+- 재귀적 루프는 레버리지, 성장 자금조달, 투자심리 의존도가 높은 시장에서 특히 중요하다.
 
-## Module G: Decision Framing
+## 모듈 G: 의사결정 프레이밍
 
-End with a direct conclusion for the investment case.
+투자 아이디어에 대한 직접적인 결론으로 마무리한다.
 
-Allowed action framings:
+허용되는 실행 프레이밍:
 
-- favorable now
-- favorable but crowded
-- good company bad timing
-- hostile backdrop
-- wait for better entry
-- thesis weakening
+- 현재 우호적(favorable now)
+- 우호적이나 쏠림 존재(favorable but crowded)
+- 좋은 기업, 나쁜 타이밍(good company bad timing)
+- 적대적 환경(hostile backdrop)
+- 더 나은 진입 시점 대기(wait for better entry)
+- 투자 논리 약화(thesis weakening)
 
-Required conclusion:
+필수 결론:
 
-- Say whether the market context strengthens, weakens, delays, or invalidates the thesis.
-- State what would change the view.
+- 시장 맥락이 투자 논리를 강화하는지, 약화하는지, 지연시키는지, 무효화하는지 밝힌다.
+- 무엇이 견해를 바꿀 것인지 명시한다.

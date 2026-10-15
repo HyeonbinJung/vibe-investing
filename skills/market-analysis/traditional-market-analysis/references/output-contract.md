@@ -1,80 +1,80 @@
-# Output Contract
+# 출력 계약
 
-## Required behavior
+## 필수 동작
 
-Always produce the analysis in this order:
+분석은 항상 다음 순서로 작성한다.
 
-1. Short regime judgment
-2. Three to five most important drivers
-3. What is already priced in
-4. Whether the backdrop strengthens or weakens the thesis
-5. Key risks, break conditions, and what to monitor next
-6. Final action framing
+1. 간결한 국면 판단
+2. 가장 중요한 동인 3~5개
+3. 이미 가격에 반영된 내용
+4. 시장 환경이 투자 논리를 강화하는지 약화하는지 여부
+5. 핵심 리스크, 이탈 조건, 향후 모니터링 항목
+6. 최종 실행 프레이밍
 
-## Required output shape
+## 필수 출력 형태
 
-Start with:
+다음으로 시작한다.
 
-Regime Judgment:
+국면 판단:
 
-Then write:
+이어서 다음을 작성한다.
 
-- one concise regime call
-- confidence level
-- one sentence on what matters most
+- 간결한 국면 판단 한 가지
+- 확신 수준
+- 가장 중요한 사항에 대한 한 문장
 
-Next section:
+다음 섹션:
 
-Key Drivers:
+핵심 동인:
 
-- explain the three to five most important drivers
-- keep each driver causal, not descriptive
+- 가장 중요한 동인 3~5개를 설명한다
+- 각 동인은 서술적이 아니라 인과적으로 작성한다
 
-Next section:
+다음 섹션:
 
-What Is Priced In:
+가격에 반영된 내용:
 
-- explain what the market already appears to expect
-- distinguish fact from inference
+- 시장이 이미 무엇을 기대하고 있는 것으로 보이는지 설명한다
+- 사실과 추론을 구분한다
 
-Next section:
+다음 섹션:
 
-Impact on the Investment Case:
+투자 아이디어에 대한 영향:
 
-- state whether the market backdrop strengthens, weakens, delays, or invalidates the thesis
-- explain why
+- 시장 환경이 투자 논리를 강화하는지, 약화하는지, 지연시키는지, 무효화하는지 밝힌다
+- 그 이유를 설명한다
 
-Next section:
+다음 섹션:
 
-Risks, Break Conditions, and Monitoring:
+리스크, 이탈 조건 및 모니터링:
 
-- list the main risks
-- list what would break the current view
-- list what to monitor next
+- 주요 리스크를 나열한다
+- 현재 견해를 무너뜨릴 조건을 나열한다
+- 향후 모니터링할 항목을 나열한다
 
-Final section:
+마지막 섹션:
 
-Action Framing:
+실행 프레이밍:
 
-Use one of these exact endings:
+다음 중 하나를 그대로 사용하여 마무리한다.
 
-- favorable now
-- favorable but crowded
-- good company bad timing
-- hostile backdrop
-- wait for better entry
-- thesis weakening
+- 현재 우호적(favorable now)
+- 우호적이나 쏠림 존재(favorable but crowded)
+- 좋은 기업, 나쁜 타이밍(good company bad timing)
+- 적대적 환경(hostile backdrop)
+- 더 나은 진입 시점 대기(wait for better entry)
+- 투자 논리 약화(thesis weakening)
 
-## Evidence tagging
+## 근거 태그
 
-Tag statements as:
+각 진술에 다음 태그를 붙인다.
 
 - `[actual]`
 - `[inference]`
 - `[assumption]`
 
-Rules:
+규칙:
 
-- never invent market internals, policy facts, positioning data, or macro data
-- if evidence is incomplete, lower confidence and say so
-- do not overclaim regime certainty when the signal quality is weak
+- 시장 내부 지표, 정책 사실, 포지셔닝 데이터, 매크로 데이터를 절대 지어내지 않는다
+- 근거가 불완전하면 확신 수준을 낮추고 그 사실을 밝힌다
+- 신호의 질이 낮을 때는 국면 판단의 확실성을 과장하지 않는다

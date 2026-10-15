@@ -1,34 +1,34 @@
-# Repository Agents Guide
+# 저장소 에이전트 가이드
 
-This file defines maintenance rules for the whole repository.
+이 파일은 저장소 전체에 적용되는 유지보수 규칙을 정의한다.
 
-## Scope
+## 적용 범위
 
-- Apply these rules to all files and folders unless a deeper `AGENTS.md` overrides them.
+- 하위 경로의 `AGENTS.md`가 별도로 규정하지 않는 한, 이 규칙을 모든 파일과 폴더에 적용한다.
 
-## Repository Purpose
+## 저장소 목적
 
-- Use this repository to manage finance and investing skills.
-- Keep each skill reusable, modular, and easy to evolve over time.
+- 이 저장소는 금융 및 투자 스킬을 관리하는 데 사용한다.
+- 각 스킬은 재사용 가능하고 모듈화되어 있으며 지속적으로 발전시키기 쉬운 형태로 유지한다.
 
-## Structure Rules
+## 구조 규칙
 
-- Keep user-facing project overview in the root `README.md` only.
-- Use `AGENTS.md` files for folder-level maintenance instructions.
-- Keep skill-specific operational guidance inside each skill's `SKILL.md`.
-- Prefer capability-first categories over asset-class-first categories when one skill should span equities, crypto, credit, commodities, or other assets.
-- Keep this repository focused on investing logic and reusable output styles rather than every possible file-conversion workflow.
-- Keep the repository aligned with the generic skill spec instead of assuming a single host product.
+- 사용자 대상 프로젝트 개요는 루트 `README.md`에만 둔다.
+- 폴더 단위 유지보수 지침은 `AGENTS.md` 파일에 작성한다.
+- 스킬별 운영 지침은 각 스킬의 `SKILL.md` 안에 둔다.
+- 하나의 스킬이 주식, 암호화폐, 크레딧, 원자재 등 여러 자산에 걸쳐야 하는 경우, 자산군 기준 분류보다 기능(capability) 기준 분류를 우선한다.
+- 가능한 모든 파일 변환 워크플로를 다루기보다 투자 로직과 재사용 가능한 출력 스타일에 집중한다.
+- 특정 호스트 제품 하나를 전제하지 말고 범용 스킬 사양에 맞춰 저장소를 유지한다.
 
-## Naming Rules
+## 명명 규칙
 
-- Use lowercase hyphen-case for skill folder names.
-- Use category folders under `skills/` to group shared capabilities.
+- 스킬 폴더명은 소문자 하이픈 표기(hyphen-case)를 사용한다.
+- 공통 기능은 `skills/` 아래 카테고리 폴더로 묶는다.
 
-## Editing Rules
+## 편집 규칙
 
-- Prefer small, targeted updates over broad rewrites.
-- Do not add extra documentation files like nested `README.md` files unless explicitly requested.
-- Keep reference material inside `references/` and use skill-local `scripts/` only when they provide real leverage.
-- When final delivery must be `docx`, `pdf`, `xlsx`, or another concrete file type, prefer applying a specialized external skill directly unless repo-specific behavior is required.
-- Remove placeholder files and speculative sample skills unless they serve an immediate purpose.
+- 광범위한 재작성보다 작고 목표가 분명한 수정을 우선한다.
+- 명시적 요청이 없는 한 하위 `README.md` 같은 추가 문서 파일을 만들지 않는다.
+- 참고 자료는 `references/` 안에 두고, 스킬 전용 `scripts/`는 실질적인 효용이 있을 때만 사용한다.
+- 최종 산출물이 `docx`, `pdf`, `xlsx` 등 구체적인 파일 형식이어야 할 때는, 저장소 고유의 동작이 필요한 경우가 아니라면 전문 외부 스킬을 직접 적용하는 방식을 우선한다.
+- 당장의 목적이 없는 플레이스홀더 파일과 시험적 샘플 스킬은 제거한다.

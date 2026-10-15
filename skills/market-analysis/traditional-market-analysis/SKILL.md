@@ -1,79 +1,79 @@
 ---
 name: traditional-market-analysis
-description: Analyze traditional market context for an investment case by identifying the current regime, cycle position, market expectations, liquidity and macro transmission, positioning and crowd psychology, risk asymmetry, and reflexive feedback loops between price, narrative, financing, and fundamentals. Use when an agent must decide what the backdrop in equities, rates, credit, macro, and other traditional markets means for the investment case right now, produce an action-oriented market judgment, and distinguish verified facts from inference and assumptions without relying on generic macro commentary.
+description: "투자 아이디어에 대한 전통 시장 맥락을 분석한다. 현재 시장 국면(market regime), 사이클 위치, 시장 기대치, 유동성 및 매크로 전달 경로(macro transmission), 포지셔닝과 군중 심리(positioning and crowd psychology), 리스크 비대칭성(risk asymmetry), 그리고 가격·내러티브·자금조달·펀더멘털 간의 재귀적 피드백 루프(reflexivity)를 식별한다. 에이전트가 주식, 금리, 크레딧, 매크로 등 전통 시장의 현재 환경이 투자 아이디어에 지금 어떤 의미인지 판단하고, 실행 지향적 시장 판단을 도출하며, 일반론적 매크로 코멘터리에 의존하지 않고 검증된 사실과 추론 및 가정을 구분해야 할 때 사용한다."
 ---
 
-# Traditional Market Analysis
+# 전통 시장 분석
 
-## Role Definition
+## 역할 정의
 
-Act as an institutional market strategist. Diagnose the market environment, explain what is already priced in, assess whether the backdrop strengthens or weakens the investment case, and end with an action-oriented conclusion.
+기관투자자 수준의 시장 전략가로서 행동한다. 시장 환경을 진단하고, 이미 가격에 반영된 내용을 설명하며, 시장 환경이 투자 아이디어를 강화하는지 약화하는지 평가하고, 실행 지향적 결론으로 마무리한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Start with the current regime, not a generic economic summary.
-- Prioritize where the market is in the cycle over point forecasts.
-- Infer expectations before using traditional cheap or expensive language.
-- Treat liquidity, policy, and financing conditions as transmission channels into multiples, earnings expectations, and risk appetite.
-- Distinguish a good asset from a good trade right now.
-- Analyze reflexive loops in which price changes alter narrative, financing access, confidence, and fundamentals.
-- Convert every regime view into a practical implication for the investment case.
+- 일반적인 경제 요약이 아니라 현재 시장 국면에서 출발한다.
+- 점 전망(point forecast)보다 시장이 사이클상 어디에 있는지를 우선한다.
+- 전통적인 저평가·고평가 표현을 쓰기 전에 기대치를 먼저 추론한다.
+- 유동성, 정책, 자금조달 여건을 밸류에이션 배수, 이익 기대치, 위험선호로 이어지는 전달 경로로 취급한다.
+- 좋은 자산과 지금 시점의 좋은 매매(trade)를 구분한다.
+- 가격 변화가 내러티브, 자금조달 접근성, 신뢰, 펀더멘털을 변화시키는 재귀적 루프를 분석한다.
+- 모든 국면 판단을 투자 아이디어에 대한 실질적 시사점으로 전환한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Make the regime call
+### 1. 국면 판단을 내린다
 
-- Identify whether conditions are risk-on, risk-off, tightening, easing, reflation, disinflation, early-cycle, late-cycle, or structurally transitioning.
-- State confidence level and major uncertainty if the signals are mixed.
+- 현재 여건이 위험선호(risk-on), 위험회피(risk-off), 긴축, 완화, 리플레이션, 디스인플레이션, 사이클 초기, 사이클 후기, 구조적 전환 중 어디에 해당하는지 식별한다.
+- 신호가 혼재된 경우 확신 수준과 주요 불확실성을 명시한다.
 
-### 2. Locate the cycle and pendulum
+### 2. 사이클과 진자의 위치를 파악한다
 
-- Judge whether psychology is tilted toward fear, greed, comfort, or defensiveness.
-- Assess whether consensus is overextended or still under-positioned.
+- 투자심리가 공포, 탐욕, 안주, 방어 중 어느 쪽으로 기울어 있는지 판단한다.
+- 컨센서스가 과도하게 확장되어 있는지, 아니면 여전히 포지션이 부족한 상태인지 평가한다.
 
-### 3. Infer expectations already priced in
+### 3. 이미 가격에 반영된 기대치를 추론한다
 
-- Explain what the market appears to be discounting for growth, inflation, rates, margins, or liquidity.
-- Compare implied expectations with plausible reality, not with a stylized fair-value idea alone.
+- 시장이 성장, 인플레이션, 금리, 마진, 유동성에 대해 무엇을 할인하고 있는 것으로 보이는지 설명한다.
+- 내재 기대치를 정형화된 적정가치 개념만이 아니라 개연성 있는 현실과 비교한다.
 
-### 4. Trace macro and liquidity transmission
+### 4. 매크로와 유동성 전달 경로를 추적한다
 
-- Explain how rates, credit, liquidity, policy, and macro inflections are transmitting into valuation, earnings expectations, and market leadership.
-- Focus on regime shifts and transmission mechanisms rather than static macro description.
+- 금리, 크레딧, 유동성, 정책, 매크로 변곡점이 밸류에이션, 이익 기대치, 시장 주도주로 어떻게 전달되고 있는지 설명한다.
+- 정태적 매크로 서술이 아니라 국면 전환과 전달 메커니즘에 집중한다.
 
-### 5. Evaluate positioning and asymmetry
+### 5. 포지셔닝과 비대칭성을 평가한다
 
-- Judge whether crowding, consensus, and internal market strength make upside or downside asymmetric.
-- Separate strong underlying fundamentals from fragile market positioning.
+- 쏠림, 컨센서스, 시장 내부 강도가 상승 또는 하락 리스크를 비대칭적으로 만드는지 판단한다.
+- 견고한 기초 펀더멘털과 취약한 시장 포지셔닝을 구분한다.
 
-### 6. Check reflexive loops
+### 6. 재귀적 루프를 점검한다
 
-- Identify whether price strength is feeding narrative strength, financing ease, capital access, confidence, and better fundamentals.
-- Identify the reverse loop when price weakness tightens conditions and damages the narrative.
+- 가격 강세가 내러티브 강화, 자금조달 용이성, 자본 접근성, 신뢰, 펀더멘털 개선으로 이어지고 있는지 식별한다.
+- 가격 약세가 여건을 긴축시키고 내러티브를 훼손하는 역방향 루프도 식별한다.
 
-### 7. Frame the decision
+### 7. 의사결정을 프레이밍한다
 
-- Conclude whether the market context strengthens, weakens, delays, or invalidates the investment case.
-- Use the output structure in `references/output-contract.md`.
+- 시장 맥락이 투자 아이디어를 강화하는지, 약화하는지, 지연시키는지, 무효화하는지 결론을 내린다.
+- `references/output-contract.md`의 출력 구조를 사용한다.
 
-## Required References
+## 필수 참고 자료
 
-- Read `references/integrated-framework.md` for the full analytical framework.
-- Read `references/signal-checklist.md` for the reusable checklist.
-- Read `references/output-contract.md` for mandatory output behavior.
+- 전체 분석 프레임워크는 `references/integrated-framework.md`를 참조한다.
+- 재사용 가능한 체크리스트는 `references/signal-checklist.md`를 참조한다.
+- 필수 출력 요건은 `references/output-contract.md`를 참조한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State uncertainty explicitly when regime evidence is mixed or incomplete.
-- Avoid deterministic regime calls when the signal quality is weak.
-- Distinguish short-term market pressure from medium-term structural change.
-- State break conditions that would force a view change.
+- 국면 판단 근거가 혼재되거나 불완전하면 불확실성을 명시한다.
+- 신호의 질이 낮을 때는 단정적인 국면 판단을 피한다.
+- 단기 시장 압력과 중기 구조적 변화를 구분한다.
+- 견해를 바꿔야 하는 이탈 조건(break condition)을 명시한다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not fabricate positioning data, policy facts, macro data, or market-internals evidence.
-- Tag statements as `[actual]`, `[inference]`, or `[assumption]`.
-- Use `[actual]` only for verified facts.
-- Use `[inference]` for reasoned conclusions drawn from facts.
-- Use `[assumption]` for scenario inputs or conditional cases.
-- If hard evidence is unavailable, say so and lower confidence rather than filling the gap with certainty.
+- 포지셔닝 데이터, 정책 사실, 매크로 데이터, 시장 내부 지표 근거를 지어내지 않는다.
+- 각 진술에 `[actual]`, `[inference]`, `[assumption]` 태그를 붙인다.
+- `[actual]`은 검증된 사실에만 사용한다.
+- `[inference]`는 사실로부터 도출한 논리적 결론에 사용한다.
+- `[assumption]`은 시나리오 입력값이나 조건부 사례에 사용한다.
+- 확실한 근거가 없으면 그 사실을 밝히고, 단정으로 공백을 메우는 대신 확신 수준을 낮춘다.

@@ -1,23 +1,23 @@
-# Data Access Category Guide
+# 데이터 액세스 카테고리 가이드
 
-## Scope
+## 적용 범위
 
-- Apply these rules to `skills/data-access/` and its descendants unless a deeper file overrides them.
+- 하위 경로의 파일이 별도로 재정의하지 않는 한, 이 규칙을 `skills/data-access/` 및 그 하위 항목 전체에 적용한다.
 
-## Purpose
+## 목적
 
-- Store skills for retrieving, validating, and preparing financial, market, economic, and alternative data for investing workflows.
+- 투자 워크플로를 위한 재무·시장·경제·대체 데이터를 조회, 검증, 가공하는 스킬을 보관한다.
 
-## Structure
+## 구조
 
-- Prefer flat skill folders directly under `skills/data-access/`.
-- Keep provider-specific implementation guidance inside the relevant skill folder.
-- Handle asset-class differences inside each skill when the same provider covers multiple asset classes.
+- 스킬 폴더는 `skills/data-access/` 바로 아래에 평평한 구조로 두는 것을 우선한다.
+- 데이터 제공업체(provider)별 구현 지침은 해당 스킬 폴더 내부에 둔다.
+- 동일한 제공업체가 여러 자산군을 다루는 경우, 자산군별 차이는 각 스킬 내부에서 처리한다.
 
-## Rules
+## 규칙
 
-- Separate data retrieval from investment interpretation.
-- Preserve source, provider, timestamp, query parameters, and coverage limits with the returned data.
-- Prefer structured API clients, SDKs, and documented provider interfaces over scraping or ad hoc parsing.
-- State when data requires paid credentials, may be delayed, or cannot be verified from the available source.
-- Do not fabricate missing fields; return explicit nulls, errors, or uncertainty notes instead.
+- 데이터 조회와 투자 해석을 분리한다.
+- 반환 데이터에 출처, 제공업체, 타임스탬프, 쿼리 파라미터, 커버리지 한계를 함께 보존한다.
+- 스크래핑이나 임시방편적 파싱보다 구조화된 API 클라이언트, SDK, 문서화된 제공업체 인터페이스를 우선 사용한다.
+- 데이터에 유료 인증 정보가 필요한 경우, 지연 데이터일 수 있는 경우, 또는 가용한 출처로 검증할 수 없는 경우 이를 명시한다.
+- 누락된 필드를 지어내지 않는다. 대신 명시적인 null, 오류, 또는 불확실성 메모를 반환한다.

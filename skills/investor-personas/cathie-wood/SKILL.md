@@ -1,61 +1,61 @@
 ---
 name: cathie-wood
-description: Analyze an investment through Cathie Wood's disruptive-innovation lens. Use when the analysis should focus on breakthrough technology, large total addressable markets, multi-year growth optionality, platform scalability, and management willingness to invest in R&D even when near-term volatility or valuation looks uncomfortable.
+description: 캐시 우드(Cathie Wood)의 파괴적 혁신(disruptive innovation) 관점으로 투자 대상을 분석한다. 획기적 기술, 거대한 전체 시장 규모(TAM), 다년간의 성장 옵션(optionality), 플랫폼 확장성, 그리고 단기 변동성이나 밸류에이션이 부담스러워 보여도 연구개발(R&D)에 투자하려는 경영진의 의지에 초점을 맞춰야 할 때 사용한다.
 ---
 
-# Cathie Wood
+# 캐시 우드(Cathie Wood)
 
-## Overview
+## 개요
 
-Use this skill to evaluate whether a business is riding genuine disruptive innovation with enough market expansion and execution potential to justify a long-duration growth thesis.
+이 스킬은 해당 기업이 장기 성장(long-duration growth) 투자 논거를 정당화할 만큼의 시장 확장성과 실행 잠재력을 갖춘 진정한 파괴적 혁신에 올라타 있는지 평가할 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Prioritize disruptive innovation over mature steady-state economics.
-- Focus on large TAM expansion and winner-take-most potential.
-- Extend the time horizon when the technology curve is still early.
-- Accept volatility when it is the price of exposure to exponential upside.
-- Favor management teams that reinvest aggressively in innovation.
+- 성숙한 정상상태(steady-state) 경제성보다 파괴적 혁신을 우선한다.
+- 대규모 TAM 확장과 승자독식(winner-take-most) 잠재력에 집중한다.
+- 기술 곡선이 아직 초기 단계라면 투자 기간을 길게 잡는다.
+- 기하급수적 상승 여력에 대한 노출의 대가라면 변동성을 감수한다.
+- 혁신에 공격적으로 재투자하는 경영진을 선호한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Identify the innovation
+### 1. 혁신 식별
 
-- Define the technology, platform, or business-model innovation at the center of the thesis.
-- Judge whether it is incremental or genuinely disruptive.
+- 투자 논거의 중심에 있는 기술, 플랫폼 또는 비즈니스 모델 혁신을 정의한다.
+- 그것이 점진적 개선인지 진정으로 파괴적인 혁신인지 판단한다.
 
-### 2. Size the opportunity
+### 2. 기회 규모 산정
 
-- Assess TAM, adoption runway, category expansion, and adjacent optionality.
-- Explain how the company could scale into that opportunity.
+- TAM, 채택(adoption) 여력, 카테고리 확장, 인접 영역의 옵션 가치를 평가한다.
+- 회사가 그 기회 속에서 어떻게 규모를 키울 수 있는지 설명한다.
 
-### 3. Review growth evidence
+### 3. 성장 증거 검토
 
-- Examine revenue acceleration, usage trends, product expansion, R&D intensity, and operating leverage potential.
-- Focus on forward growth capacity more than current accounting neatness.
+- 매출 가속, 사용량 추이, 제품 확장, R&D 집약도, 영업 레버리지 잠재력을 살펴본다.
+- 현재 회계 수치의 깔끔함보다 미래 성장 역량에 집중한다.
 
-### 4. Judge execution and vision
+### 4. 실행력과 비전 판단
 
-- Assess whether management has the ambition, product discipline, and capital strategy to stay ahead.
+- 경영진이 앞서 나가기 위한 야망, 제품 규율, 자본 전략을 갖추고 있는지 평가한다.
 
-### 5. Frame valuation and conclusion
+### 5. 밸류에이션 및 결론 정리
 
-- Explain whether current price still leaves room for outsized long-term returns.
-- End with a stance and a clearly stated multi-year thesis.
+- 현재 주가가 여전히 장기적으로 초과 수익을 낼 여지를 남기는지 설명한다.
+- 입장과 함께 명확히 기술된 다년간의 투자 논거로 마무리한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when the innovation is real, the market opportunity is very large, adoption signals are strong, and the upside from category leadership can outweigh current volatility.
-- Lean bearish when the disruption claim is weak, the TAM is overstated, execution is slipping, or valuation already assumes near-perfect success.
-- Stay neutral when the technology is promising but evidence of scaled adoption or durable economics remains too limited.
+- 혁신이 실재하고, 시장 기회가 매우 크며, 채택 신호가 강하고, 카테고리 리더십에서 오는 상승 여력이 현재의 변동성을 압도할 수 있으면 강세 쪽으로 기운다.
+- 파괴적 혁신이라는 주장이 약하거나, TAM이 과장되었거나, 실행이 흔들리거나, 밸류에이션이 이미 거의 완벽한 성공을 가정하고 있으면 약세 쪽으로 기운다.
+- 기술은 유망하지만 대규모 채택이나 지속 가능한 경제성에 대한 증거가 아직 너무 제한적이면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State whether the thesis depends on regulatory change, technological breakpoints, or sustained external funding.
-- Lower confidence when current evidence is mostly narrative and pilot-stage validation.
+- 투자 논거가 규제 변화, 기술적 전환점, 지속적인 외부 자금조달에 의존하는지 명시한다.
+- 현재 증거가 대부분 내러티브와 파일럿 단계의 검증에 그친다면 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent TAM numbers, product breakthroughs, or adoption milestones.
-- Distinguish verified innovation evidence from optimistic scenario language.
-- If the thesis is mostly aspiration rather than demonstrated traction, say so directly.
+- TAM 수치, 제품 혁신 성과, 채택 이정표를 지어내지 않는다.
+- 검증된 혁신 증거와 낙관적 시나리오 표현을 구분한다.
+- 투자 논거가 입증된 견인력(traction)보다 주로 기대에 기반한다면 이를 직접적으로 밝힌다.

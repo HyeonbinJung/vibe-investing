@@ -1,35 +1,35 @@
-# Chart Playbook
+# 차트 플레이북
 
-## Table of Contents
+## 목차
 
-- Chart selection rules
-- Chart types
-- Data and labeling rules
-- Common finance use cases
-- Chart mistakes to avoid
+- 차트 선택 규칙
+- 차트 유형
+- 데이터 및 레이블 규칙
+- 주요 금융 활용 사례
+- 피해야 할 차트 실수
 
-## Chart selection rules
+## 차트 선택 규칙
 
-Choose the chart that best answers the user's question.
+사용자의 질문에 가장 잘 답하는 차트를 선택한다.
 
-- Use OHLCV or candlestick-style charts for price action, range behavior, breakouts, and trading context.
-- Use line charts for time-series trends, indicator overlays, cumulative performance, and benchmark comparisons.
-- Use bar charts for category comparisons, quarterly changes, factor rankings, and peer snapshots.
-- Use pie charts only for part-to-whole composition with a small number of categories.
-- Use tables when exact values matter more than shape or trend.
-- Prefer a finance-native rendering backend for finance-native charts. See `references/chart-rendering-backends.md`.
+- 가격 움직임, 박스권 움직임, 돌파, 트레이딩 맥락에는 OHLCV 또는 캔들스틱 형태의 차트를 사용한다.
+- 시계열 추세, 지표 오버레이, 누적 성과, 벤치마크 비교에는 선 차트를 사용한다.
+- 범주 비교, 분기별 변화, 팩터 순위, 동종업체 스냅샷에는 막대 차트를 사용한다.
+- 파이 차트는 범주 수가 적은 전체 대비 부분 구성에만 사용한다.
+- 형태나 추세보다 정확한 수치가 중요할 때는 표를 사용한다.
+- 금융 고유의 차트에는 금융 특화 렌더링 백엔드를 우선 사용한다. `references/chart-rendering-backends.md`를 참조한다.
 
-## Chart types
+## 차트 유형
 
 ### OHLCV
 
-Use for:
+사용 용도:
 
-- Open, high, low, close, and volume review
-- Candlestick or bar-based market structure
-- Moving averages or other overlays
+- 시가, 고가, 저가, 종가, 거래량 검토
+- 캔들스틱 또는 바 기반의 시장 구조
+- 이동평균선 또는 기타 오버레이
 
-Good fields:
+적합한 필드:
 
 - date
 - open
@@ -38,71 +38,71 @@ Good fields:
 - close
 - volume
 
-Common overlays:
+주요 오버레이:
 
-- moving averages
+- 이동평균선
 - VWAP
-- Bollinger Bands
-- support and resistance levels
+- 볼린저 밴드(Bollinger Bands)
+- 지지선 및 저항선
 
-### Line chart
+### 선 차트
 
-Use for:
+사용 용도:
 
-- Price trend over time
-- Relative performance
-- Macro indicators
-- Revenue, EPS, TVL, AUM, spreads, yields, or other time-series metrics
+- 시간에 따른 가격 추세
+- 상대 성과
+- 매크로 지표
+- 매출, EPS, TVL, AUM, 스프레드, 수익률 등 기타 시계열 지표
 
-Good patterns:
+권장 패턴:
 
-- one to three main series per chart
-- shared scale when comparison is direct
-- indexed series when relative movement matters more than absolute level
+- 차트당 주요 시계열 1~3개
+- 직접 비교할 때는 동일 척도 사용
+- 절대 수준보다 상대적 움직임이 중요할 때는 지수화한 시계열 사용
 
-### Bar chart
+### 막대 차트
 
-Use for:
+사용 용도:
 
-- Peer comparison
-- Quarter-over-quarter or year-over-year deltas
-- Ranked exposures
-- Segment revenue or contribution
+- 동종업체 비교
+- 전분기 대비 또는 전년 대비 증감
+- 익스포저 순위
+- 부문별 매출 또는 기여도
 
-### Pie chart
+### 파이 차트
 
-Use for:
+사용 용도:
 
-- Revenue mix
-- Portfolio weights
-- Sector weights
-- Holder or customer mix
+- 매출 구성
+- 포트폴리오 비중
+- 섹터 비중
+- 주주 또는 고객 구성
 
-Only use when:
+다음의 경우에만 사용한다:
 
-- there are few categories
-- composition matters more than exact comparison
+- 범주 수가 적을 때
+- 정확한 비교보다 구성 비율이 중요할 때
 
-## Data and labeling rules
+## 데이터 및 레이블 규칙
 
-- Always label units, time periods, and currency when relevant.
-- State whether values are raw, indexed, normalized, percentage, or basis points.
-- Keep legends short and specific.
-- Add a source note when data origin matters.
-- Prefer chart titles that answer the question, not generic labels.
+- 해당되는 경우 단위, 기간, 통화를 항상 표기한다.
+- 값이 원시값, 지수화, 정규화, 백분율, 베이시스 포인트 중 무엇인지 명시한다.
+- 범례는 짧고 구체적으로 작성한다.
+- 데이터 출처가 중요할 때는 출처 주석을 추가한다.
+- 일반적인 레이블보다 질문에 답하는 차트 제목을 우선한다.
 
-## Common finance use cases
+## 주요 금융 활용 사례
 
-- Equity initiation: price trend line chart, margin trend line chart, peer valuation bar chart, revenue mix pie chart
-- Crypto report: token price OHLCV chart, on-chain activity line chart, holder or supply mix pie chart
-- Credit note: leverage trend line chart, maturity wall bar chart, spread history line chart
-- Portfolio update: allocation pie chart, sector exposure bar chart, cumulative return line chart
-- Macro report: rate path line chart, inflation decomposition bar chart, yield-curve comparison line chart
+- 주식 신규 커버리지(initiation): 주가 추세 선 차트, 마진 추세 선 차트, 동종업체 밸류에이션 막대 차트, 매출 구성 파이 차트
+- 암호화폐 리포트: 토큰 가격 OHLCV 차트, 온체인 활동 선 차트, 보유자 또는 공급 구성 파이 차트
+- 크레딧 노트: 레버리지 추세 선 차트, 만기 도래 구조(maturity wall) 막대 차트, 스프레드 추이 선 차트
+- 포트폴리오 업데이트: 자산배분 파이 차트, 섹터 익스포저 막대 차트, 누적 수익률 선 차트
+- 매크로 리포트: 금리 경로 선 차트, 인플레이션 요인 분해 막대 차트, 수익률 곡선 비교 선 차트
 
-## Chart mistakes to avoid
+## 피해야 할 차트 실수
 
-- Pie chart with too many slices
-- OHLCV chart without volume or date context
-- Line chart with too many series
-- Mixed units on one axis without explanation
-- Decorative charts with no analytical role
+- 조각이 너무 많은 파이 차트
+- 거래량이나 날짜 맥락이 없는 OHLCV 차트
+- 시계열이 너무 많은 선 차트
+- 설명 없이 하나의 축에 단위를 혼용
+- 분석적 역할이 없는 장식용 차트

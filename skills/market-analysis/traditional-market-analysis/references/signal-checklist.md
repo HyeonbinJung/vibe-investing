@@ -1,115 +1,115 @@
-# Signal Checklist
+# 신호 체크리스트
 
-## Table of Contents
+## 목차
 
-- Regime signals
-- Cycle and psychology signals
-- Expectations signals
-- Liquidity and transmission signals
-- Positioning and asymmetry signals
-- Reflexivity signals
-- Quality control
+- 국면 신호
+- 사이클 및 투자심리 신호
+- 기대치 신호
+- 유동성 및 전달 경로 신호
+- 포지셔닝 및 비대칭성 신호
+- 재귀성 신호
+- 품질 관리
 
-## Regime signals
+## 국면 신호
 
-Check:
+점검 항목:
 
-- policy direction
-- real-rate direction
-- inflation trend
-- credit conditions
-- breadth and leadership
-- volatility regime
-- cross-asset confirmation
+- 정책 방향
+- 실질금리 방향
+- 인플레이션 추세
+- 신용 여건
+- 시장 폭과 주도주
+- 변동성 국면
+- 자산 간 교차 확인(cross-asset confirmation)
 
-Ask:
+질문:
 
-- Is the market operating in a supportive or hostile regime?
-- Is the regime strengthening, weakening, or transitioning?
+- 시장은 우호적인 국면에 있는가, 적대적인 국면에 있는가?
+- 해당 국면은 강화되고 있는가, 약화되고 있는가, 전환 중인가?
 
-## Cycle and psychology signals
+## 사이클 및 투자심리 신호
 
-Check:
+점검 항목:
 
-- fear versus greed
-- investor comfort
-- consensus confidence
-- dip-buying behavior
-- stress after shock events
+- 공포 대 탐욕
+- 투자자 안주 정도
+- 컨센서스 확신도
+- 저가 매수(dip-buying) 행태
+- 충격 이벤트 이후의 스트레스
 
-Ask:
+질문:
 
-- Is consensus too comfortable or too defensive?
-- Is sentiment stretched enough to create asymmetry?
+- 컨센서스가 지나치게 안주하고 있는가, 지나치게 방어적인가?
+- 투자심리가 비대칭성을 만들어낼 만큼 과도하게 치우쳐 있는가?
 
-## Expectations signals
+## 기대치 신호
 
-Check:
+점검 항목:
 
-- valuation support versus valuation dependence
-- implied earnings resilience
-- policy pivot expectations
-- growth reacceleration expectations
-- clean-landing versus hard-landing assumptions
+- 밸류에이션 지지 여부 대 밸류에이션 의존도
+- 내재된 이익 회복력
+- 정책 전환(pivot) 기대
+- 성장 재가속 기대
+- 연착륙 대 경착륙 가정
 
-Ask:
+질문:
 
-- What already needs to go right for current prices to hold?
-- What outcomes would still surprise the market?
+- 현재 가격이 유지되려면 이미 무엇이 잘 풀려야 하는가?
+- 어떤 결과가 여전히 시장에 서프라이즈가 될 수 있는가?
 
-## Liquidity and transmission signals
+## 유동성 및 전달 경로 신호
 
-Check:
+점검 항목:
 
-- front-end and long-end rates
-- spread behavior
-- financing access
-- policy communication
-- credit availability
-- liquidity-sensitive sectors and styles
+- 단기물 및 장기물 금리
+- 스프레드 움직임
+- 자금조달 접근성
+- 정책 커뮤니케이션
+- 신용 가용성
+- 유동성 민감 섹터와 스타일
 
-Ask:
+질문:
 
-- How are these variables changing multiples, leadership, and earnings expectations?
-- Are markets moving because fundamentals improved, or because financial conditions eased?
+- 이 변수들은 밸류에이션 배수, 주도주, 이익 기대치를 어떻게 바꾸고 있는가?
+- 시장은 펀더멘털이 개선되어서 움직이는가, 아니면 금융 여건이 완화되어서 움직이는가?
 
-## Positioning and asymmetry signals
+## 포지셔닝 및 비대칭성 신호
 
-Check:
+점검 항목:
 
-- crowding
-- concentration
-- narrow leadership
-- under-ownership
-- squeeze potential
-- one-sided narratives
+- 쏠림
+- 집중도
+- 좁은 주도주
+- 낮은 보유 비중(under-ownership)
+- 스퀴즈 가능성
+- 일방적인 내러티브
 
-Ask:
+질문:
 
-- Is upside still open, or mostly consumed?
-- Is downside more dangerous than consensus assumes?
+- 상승 여력이 아직 열려 있는가, 아니면 대부분 소진되었는가?
+- 하방 리스크가 컨센서스의 가정보다 더 위험한가?
 
-## Reflexivity signals
+## 재귀성 신호
 
-Check:
+점검 항목:
 
-- price-driven narrative reinforcement
-- financing access changes
-- confidence effects
-- capital spending response
-- hiring or risk-taking response
+- 가격 주도의 내러티브 강화
+- 자금조달 접근성 변화
+- 신뢰 효과
+- 설비투자 반응
+- 고용 또는 위험 감수 반응
 
-Ask:
+질문:
 
-- Is price validating the story?
-- Is price creating the conditions that make the story stronger or weaker?
+- 가격이 스토리를 입증하고 있는가?
+- 가격이 스토리를 더 강하게 또는 더 약하게 만드는 여건을 만들어내고 있는가?
 
-## Quality control
+## 품질 관리
 
-Before finalizing the analysis:
+분석을 확정하기 전에:
 
-- tag evidence as `[actual]`, `[inference]`, or `[assumption]`
-- state top uncertainties
-- list break conditions
-- explain what to monitor next
-- force an action framing rather than stopping at description
+- 근거에 `[actual]`, `[inference]`, `[assumption]` 태그를 붙인다
+- 주요 불확실성을 명시한다
+- 이탈 조건을 나열한다
+- 향후 모니터링할 항목을 설명한다
+- 서술에서 멈추지 말고 반드시 실행 프레이밍을 제시한다

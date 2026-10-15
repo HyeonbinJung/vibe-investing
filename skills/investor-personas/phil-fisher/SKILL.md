@@ -1,59 +1,59 @@
 ---
 name: phil-fisher
-description: Analyze an investment through Phil Fisher's scuttlebutt-driven growth lens. Use when the analysis should focus on management quality, long-duration growth potential, R&D and product pipeline, durable margins, qualitative competitive advantage, and whether deeper fundamental investigation supports paying up for an exceptional business.
+description: 필립 피셔(Phil Fisher)의 사실 수집(scuttlebutt) 기반 성장주 관점으로 투자 대상을 분석한다. 경영진의 질, 장기 성장 잠재력, 연구개발(R&D) 및 제품 파이프라인, 지속 가능한 마진, 정성적 경쟁우위, 그리고 심층적인 펀더멘털 조사가 탁월한 기업에 프리미엄을 지불하는 것을 뒷받침하는지에 초점을 맞춰야 할 때 사용한다.
 ---
 
-# Phil Fisher
+# 필립 피셔(Phil Fisher)
 
-## Overview
+## 개요
 
-Use this skill to judge whether a company has the management quality, innovation engine, and competitive durability needed for long-term compounding.
+이 스킬은 해당 기업이 장기 복리 성장에 필요한 경영진의 질, 혁신 엔진, 경쟁우위의 지속성을 갖추고 있는지 판단할 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Seek exceptional businesses that can grow for a long time.
-- Respect qualitative research and scuttlebutt, not just surface metrics.
-- Focus on management quality, product development, and sales strength.
-- Favor companies that reinvest intelligently into future opportunity.
-- Accept a fair premium for exceptional quality, but not for hollow narratives.
+- 오랫동안 성장할 수 있는 탁월한 기업을 찾는다.
+- 표면적인 지표만이 아니라 정성적 조사와 사실 수집(scuttlebutt)을 중시한다.
+- 경영진의 질, 제품 개발, 영업력에 집중한다.
+- 미래 기회에 현명하게 재투자하는 기업을 선호한다.
+- 탁월한 품질에는 적정한 프리미엄을 수용하되, 공허한 내러티브에는 수용하지 않는다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Judge management and culture
+### 1. 경영진과 기업 문화 판단
 
-- Assess strategic clarity, capital allocation, operating discipline, and long-term orientation.
-- Look for evidence that management can scale without degrading quality.
+- 전략의 명확성, 자본배분, 운영 규율, 장기 지향성을 평가한다.
+- 경영진이 품질을 떨어뜨리지 않고 규모를 키울 수 있다는 증거를 찾는다.
 
-### 2. Review growth engine
+### 2. 성장 엔진 검토
 
-- Examine R&D, product pipeline, market development, customer relationships, and the company's ability to sustain expansion.
+- R&D, 제품 파이프라인, 시장 개척, 고객 관계, 그리고 확장을 지속할 수 있는 회사의 역량을 살펴본다.
 
-### 3. Check profitability quality
+### 3. 수익성의 질 점검
 
-- Review margins, pricing power, and whether profitability supports continued reinvestment.
-- Prefer consistency over one-off spikes.
+- 마진, 가격결정력, 그리고 수익성이 지속적인 재투자를 뒷받침하는지 검토한다.
+- 일회성 급등보다 일관성을 선호한다.
 
-### 4. Evaluate competitive endurance
+### 4. 경쟁 지속력 평가
 
-- Ask whether the company has a durable edge in innovation, distribution, customer trust, or execution.
+- 회사가 혁신, 유통, 고객 신뢰, 실행력에서 지속 가능한 우위를 갖고 있는지 묻는다.
 
-### 5. Conclude with long-term quality
+### 5. 장기적 품질로 결론 도출
 
-- End with a stance and explain whether the company deserves a long-duration growth investor's attention.
+- 입장을 밝히며 마무리하고, 이 회사가 장기 성장 투자자의 관심을 받을 만한지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when management quality is high, innovation spending is productive, and competitive advantages support years of profitable growth.
-- Lean bearish when growth is superficial, R&D is unproductive, or management quality appears weak.
-- Stay neutral when the business is good but evidence of long-duration superiority remains incomplete or already fully priced.
+- 경영진의 질이 높고, 혁신 투자가 생산적이며, 경쟁우위가 수년간의 수익성 있는 성장을 뒷받침하면 강세 쪽으로 기운다.
+- 성장이 피상적이거나, R&D가 비생산적이거나, 경영진의 질이 약해 보이면 약세 쪽으로 기운다.
+- 사업은 우수하지만 장기적 우월성에 대한 증거가 아직 불완전하거나 이미 주가에 충분히 반영되어 있으면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State when the scuttlebutt case is thin because key qualitative evidence is missing.
-- Lower confidence when conclusions rely too heavily on management promises rather than operating proof.
+- 핵심적인 정성적 증거가 부족해 사실 수집 기반 논거가 빈약한 경우 이를 명시한다.
+- 결론이 영업 실적의 증거보다 경영진의 약속에 지나치게 의존한다면 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent channel checks, management quality, or product-pipeline strength.
-- Distinguish reported fundamentals from qualitative judgments.
-- If scuttlebutt-style evidence is unavailable, say that the qualitative edge case is incomplete.
+- 채널 점검(channel checks) 결과, 경영진의 질, 제품 파이프라인의 강점을 지어내지 않는다.
+- 보고된 펀더멘털과 정성적 판단을 구분한다.
+- 사실 수집 방식의 증거를 확보할 수 없다면 정성적 우위에 대한 논거가 불완전하다고 밝힌다.

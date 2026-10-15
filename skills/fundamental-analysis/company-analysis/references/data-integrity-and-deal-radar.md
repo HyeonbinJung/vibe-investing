@@ -1,70 +1,70 @@
-# Data Integrity and Deal Radar
+# 데이터 무결성 및 딜 레이더
 
-## Table of Contents
+## 목차
 
-- Hallucination defense rules
-- Data-tagging rules
-- Uncertainty rules
-- Deal Radar workflow
-- Peer and transaction verification
+- 할루시네이션 방어 규칙
+- 데이터 태깅 규칙
+- 불확실성 규칙
+- 딜 레이더(Deal Radar) 워크플로
+- 비교기업 및 거래 검증
 
-## Hallucination defense rules
+## 할루시네이션 방어 규칙
 
-Apply these before analysis and keep them higher priority than narrative elegance.
+분석 전에 다음 규칙을 적용하며, 내러티브의 완성도보다 항상 우선한다.
 
-- Verify revenue, earnings, debt, market cap, and transaction facts through web research before using them.
-- If verification fails, say so explicitly.
-- Never convert an unverified claim into a factual statement.
-- Never fabricate peer multiples, precedent transactions, M&A rumors, or nonexistent listed companies.
+- 매출, 이익, 부채, 시가총액, 거래 관련 사실은 사용하기 전에 웹 리서치로 검증한다.
+- 검증에 실패한 경우 이를 명시적으로 밝힌다.
+- 검증되지 않은 주장을 절대 사실 진술로 전환하지 않는다.
+- 비교기업 멀티플, 선례 거래, M&A 루머, 존재하지 않는 상장기업을 절대 지어내지 않는다.
 
-## Data-tagging rules
+## 데이터 태깅 규칙
 
-Tag every number using these categories:
+모든 수치에 다음 범주 중 하나로 태그를 붙인다:
 
-- `[Actual]`: verified disclosed data with a cited source
-- `[Estimated]`: calculated from verified data, with the calculation basis stated
-- `[Assumption]`: modeling input that can change
+- `[Actual]`: 출처가 인용된, 검증된 공시 데이터
+- `[Estimated]`: 검증된 데이터로부터 산출한 값으로, 산출 근거를 명시한 것
+- `[Assumption]`: 변경될 수 있는 모델링 입력값
 
-Never use `[Actual]` without a source.
+출처 없이 `[Actual]`을 절대 사용하지 않는다.
 
-## Uncertainty rules
+## 불확실성 규칙
 
-Declare uncertainty clearly when:
+다음의 경우 불확실성을 명확히 선언한다:
 
-- private-company financials are undisclosed
-- the latest earnings are not yet reflected
-- market practice is ambiguous
-- the number would otherwise require guessing
+- 비상장기업의 재무 정보가 공시되지 않은 경우
+- 최신 실적이 아직 반영되지 않은 경우
+- 시장 관행이 모호한 경우
+- 해당 수치를 산출하려면 추측이 필요한 경우
 
-If data is missing, say that the user can provide direct inputs for a more accurate model.
+데이터가 누락된 경우, 사용자가 직접 입력값을 제공하면 더 정확한 모델을 만들 수 있다고 안내한다.
 
-If a scenario is illustrative rather than real, mark it clearly as an example scenario and say it is not actual data.
+시나리오가 실제가 아닌 예시용인 경우, 예시 시나리오임을 명확히 표시하고 실제 데이터가 아님을 밝힌다.
 
-## Deal Radar workflow
+## 딜 레이더(Deal Radar) 워크플로
 
-Before valuation, search the web for:
+밸류에이션 전에 다음 항목을 웹에서 검색한다:
 
-1. Pending M&A involving the company
-2. Parent, subsidiary, affiliate, spin-off, or IPO situations
-3. Major competitor deals in the same sector
-4. Regulatory review, antitrust, or litigation issues
-5. Activist pressure or breakup pressure
-6. Major shareholder ownership changes
+1. 해당 기업이 관련된 진행 중인 M&A
+2. 모회사, 자회사, 계열사, 스핀오프 또는 IPO 관련 상황
+3. 동일 섹터 내 주요 경쟁사 딜
+4. 규제 심사, 반독점 또는 소송 이슈
+5. 행동주의 압력 또는 분할 압력
+6. 주요 주주 지분 변동
 
-Output as:
+출력 형식:
 
-- Deal title
-- rumor / official announcement / under regulatory review
-- valuation impact
-- source
+- 딜 명칭
+- 루머 / 공식 발표 / 규제 심사 중
+- 밸류에이션 영향
+- 출처
 
-If nothing material is found, state that no major deal issues are currently confirmed.
+중요한 사안이 발견되지 않은 경우, 현재 확인된 주요 딜 이슈가 없다고 명시한다.
 
-Include only verified items.
+검증된 항목만 포함한다.
 
-## Peer and transaction verification
+## 비교기업 및 거래 검증
 
-- List only real, listed peer companies
-- Do not invent peer multiples
-- If peer or transaction verification is incomplete, state that Bloomberg, Capital IQ, or equivalent data verification is needed
-- Do not invent precedent M&A deals
+- 실재하는 상장 비교기업만 나열한다
+- 비교기업 멀티플을 지어내지 않는다
+- 비교기업 또는 거래 검증이 불완전한 경우, Bloomberg, Capital IQ 또는 이에 준하는 데이터를 통한 검증이 필요함을 명시한다
+- 선례 M&A 거래를 지어내지 않는다

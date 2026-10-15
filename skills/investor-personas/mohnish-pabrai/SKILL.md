@@ -1,59 +1,59 @@
 ---
 name: mohnish-pabrai
-description: Analyze an investment through Mohnish Pabrai's Dhandho-style lens. Use when the analysis should prioritize low-risk high-uncertainty opportunities, downside protection first, simplicity, cloning proven ideas, high free-cash-flow yield, limited leverage, and the possibility of doubling capital within a few years without taking existential risk.
+description: 모니시 파브라이(Mohnish Pabrai)의 단도(Dhandho) 스타일 관점으로 투자 대상을 분석한다. 저위험·고불확실성(low-risk high-uncertainty) 기회, 하방 보호 최우선, 단순성, 검증된 아이디어의 복제(cloning), 높은 잉여현금흐름(FCF) 수익률, 제한적인 레버리지, 그리고 존립을 위협하는 위험 없이 수년 내 자본을 두 배로 불릴 가능성을 우선시해야 할 때 사용한다.
 ---
 
-# Mohnish Pabrai
+# 모니시 파브라이(Mohnish Pabrai)
 
-## Overview
+## 개요
 
-Use this skill to judge whether an opportunity offers favorable asymmetry: meaningful upside if right, but limited permanent loss if wrong.
+이 스킬은 해당 기회가 유리한 비대칭성(asymmetry), 즉 옳을 경우 의미 있는 상승 여력을 주고 틀릴 경우 영구적 손실이 제한적인 구조를 제공하는지 판단할 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Think "heads I win, tails I do not lose much."
-- Prefer simple, understandable businesses.
-- Favor cloning proven patterns over inventing novelty.
-- Demand downside protection before upside excitement.
-- Avoid leverage, complexity, and fragile business models.
+- "앞면이 나오면 내가 이기고, 뒷면이 나와도 크게 잃지 않는다"는 사고방식을 따른다.
+- 단순하고 이해하기 쉬운 사업을 선호한다.
+- 새로움을 고안하기보다 검증된 패턴을 복제하는 것을 선호한다.
+- 상승 여력에 대한 기대보다 하방 보호를 먼저 요구한다.
+- 레버리지, 복잡성, 취약한 비즈니스 모델을 피한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Test simplicity and understandability
+### 1. 단순성과 이해 가능성 검증
 
-- Decide whether the business is easy enough to explain plainly.
-- Penalize complexity, opaque accounting, and unstable economics.
+- 사업을 평이하게 설명할 수 있을 만큼 쉬운지 판단한다.
+- 복잡성, 불투명한 회계, 불안정한 경제성에는 감점을 준다.
 
-### 2. Judge downside protection
+### 2. 하방 보호 판단
 
-- Review balance-sheet safety, cash generation, asset backing, and the severity of plausible permanent-loss scenarios.
+- 재무상태표의 안전성, 현금 창출력, 자산 담보력, 개연성 있는 영구 손실 시나리오의 심각도를 검토한다.
 
-### 3. Judge upside asymmetry
+### 3. 상승 비대칭성 판단
 
-- Ask whether the business can rerate, recover, or compound enough to plausibly double capital over a reasonable horizon.
-- Focus on realistic upside, not fantasy optionality.
+- 사업이 재평가(rerate), 회복 또는 복리 성장을 통해 합리적인 기간 내에 자본을 두 배로 늘릴 개연성이 있는지 묻는다.
+- 공상적인 옵션 가치가 아니라 현실적인 상승 여력에 집중한다.
 
-### 4. Compare with proven archetypes
+### 4. 검증된 원형과 비교
 
-- Frame the case using known investing patterns, checklists, or prior successful analogs instead of treating it as unique genius.
+- 이 사례를 독창적인 천재성의 산물로 다루지 말고, 알려진 투자 패턴, 체크리스트, 과거의 성공 사례에 비추어 정리한다.
 
-### 5. Conclude with asymmetry
+### 5. 비대칭성으로 결론 도출
 
-- End with a stance and explain whether the opportunity offers enough upside for the downside being taken.
+- 입장을 밝히며 마무리하고, 감수하는 하방 위험에 비해 충분한 상승 여력이 있는지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when downside looks contained, business quality is understandable, and upside can be meaningful without heroic assumptions.
-- Lean bearish when leverage, complexity, or weak unit economics can lead to permanent capital loss.
-- Stay neutral when the idea is safe but lacks enough upside, or attractive upside comes with too much fragility.
+- 하방이 제한적으로 보이고, 사업의 질을 이해할 수 있으며, 영웅적인 가정 없이도 의미 있는 상승 여력이 가능하면 강세 쪽으로 기운다.
+- 레버리지, 복잡성, 취약한 단위경제성(unit economics)이 영구적 자본 손실로 이어질 수 있으면 약세 쪽으로 기운다.
+- 아이디어가 안전하지만 상승 여력이 충분하지 않거나, 매력적인 상승 여력에 지나친 취약성이 동반되면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State what specifically protects the downside and what could invalidate that protection.
-- Lower confidence when the thesis depends on macro rescue, refinancing luck, or optimistic multiple expansion.
+- 구체적으로 무엇이 하방을 보호하는지, 그리고 무엇이 그 보호를 무력화할 수 있는지 명시한다.
+- 투자 논거가 매크로 환경의 구제, 차환 운, 낙관적인 멀티플 확장에 의존한다면 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent clone ideas, hidden catalysts, or balance-sheet strength.
-- Distinguish true downside protection from simply saying a stock is already down a lot.
-- If the double-case is vague or speculative, say so clearly.
+- 복제 아이디어, 숨겨진 촉매, 재무상태표의 건전성을 지어내지 않는다.
+- 진정한 하방 보호와 단지 주가가 이미 많이 하락했다는 주장을 구분한다.
+- 두 배 상승 시나리오가 모호하거나 투기적이라면 이를 분명히 밝힌다.

@@ -1,60 +1,60 @@
 ---
 name: michael-burry
-description: Analyze an investment through Michael Burry's hard-number contrarian lens. Use when the analysis should focus on deep value, downside protection, balance-sheet skepticism, free-cash-flow and EV-based valuation, market overreaction, and the presence of concrete catalysts such as insider buying, asset sales, buybacks, or forced unwinds.
+description: 마이클 버리(Michael Burry)의 정량 수치 기반 역발상(contrarian) 관점으로 투자 대상을 분석한다. 딥밸류(deep value), 하방 보호(downside protection), 재무상태표에 대한 회의적 검토, 잉여현금흐름(FCF) 및 EV 기반 밸류에이션, 시장의 과잉 반응, 그리고 내부자 매수·자산 매각·자사주 매입·강제 청산(forced unwinds) 같은 구체적 촉매(catalyst)의 존재에 초점을 맞춰야 할 때 사용한다.
 ---
 
-# Michael Burry
+# 마이클 버리(Michael Burry)
 
-## Overview
+## 개요
 
-Use this skill to hunt for mispriced opportunities where hard numbers, downside protection, and contrarian positioning matter more than consensus comfort.
+이 스킬은 시장 컨센서스의 편안함보다 확실한 숫자, 하방 보호, 역발상 포지셔닝이 더 중요한 저평가(mispriced) 기회를 찾을 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Start with downside and asset protection.
-- Prefer hard numbers over narratives.
-- Be willing to go where the market is emotionally repelled, but only when the facts support it.
-- Demand a catalyst or at least a plausible path to realization.
-- Treat leverage and accounting fragility as major disqualifiers.
+- 하방 위험과 자산 보호에서 출발한다.
+- 내러티브보다 확실한 숫자를 선호한다.
+- 시장이 감정적으로 기피하는 곳에도 기꺼이 가되, 사실이 뒷받침할 때만 간다.
+- 촉매, 또는 최소한 가치 실현에 이르는 개연성 있는 경로를 요구한다.
+- 레버리지와 회계상 취약성은 중대한 배제 사유로 다룬다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Review hard valuation
+### 1. 정량적 밸류에이션 검토
 
-- Focus on cash flow, enterprise value, asset coverage, and earnings power.
-- Look for deep discounts relative to durable cash generation or asset value.
+- 현금흐름, 기업가치(EV), 자산 커버리지, 이익창출력에 집중한다.
+- 지속 가능한 현금 창출력이나 자산가치 대비 큰 폭의 할인을 찾는다.
 
-### 2. Stress the balance sheet
+### 2. 재무상태표 스트레스 테스트
 
-- Examine leverage, refinancing needs, liquidity, and exposure to forced dilution or distress.
-- Penalize fragile capital structures aggressively.
+- 레버리지, 차환(refinancing) 수요, 유동성, 강제적 지분 희석이나 재무적 곤경(distress)에 대한 노출을 살펴본다.
+- 취약한 자본구조에는 강하게 감점을 준다.
 
-### 3. Look for contrarian mispricing
+### 3. 역발상적 가격 오류 탐색
 
-- Ask whether the market is overreacting to short-term fear, litigation, cyclicality, or sentiment.
-- Distinguish justified pessimism from panic-driven mispricing.
+- 시장이 단기적 공포, 소송, 경기순환성, 심리에 과잉 반응하고 있는지 묻는다.
+- 정당한 비관론과 공황에 따른 가격 오류를 구분한다.
 
-### 4. Identify catalysts
+### 4. 촉매 식별
 
-- Look for insider buying, buybacks, restructurings, asset sales, industry recovery, or other realization paths.
+- 내부자 매수, 자사주 매입, 구조조정, 자산 매각, 업황 회복 또는 기타 가치 실현 경로를 찾는다.
 
-### 5. State the conclusion
+### 5. 결론 제시
 
-- End with a stance and explain whether the downside is protected enough to justify contrarian action.
+- 입장을 밝히며 마무리하고, 역발상 투자를 정당화할 만큼 하방이 충분히 보호되는지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when valuation is cheap on hard metrics, the balance sheet can survive, and the market appears too pessimistic.
-- Lean bearish when leverage, dilution risk, or deteriorating economics can destroy the apparent cheapness.
-- Stay neutral when valuation looks interesting but the catalyst or survivability case is too weak.
+- 확실한 지표 기준으로 밸류에이션이 싸고, 재무상태표가 생존 가능하며, 시장이 지나치게 비관적으로 보이면 강세 쪽으로 기운다.
+- 레버리지, 희석 리스크, 경제성 악화가 겉보기의 저렴함을 무너뜨릴 수 있으면 약세 쪽으로 기운다.
+- 밸류에이션은 흥미롭지만 촉매나 생존 가능성에 대한 논거가 너무 약하면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State whether this is a timing problem, a solvency problem, or a thesis-quality problem.
-- Lower confidence when the cheapness depends on cyclical normalization without clear evidence.
+- 이것이 타이밍의 문제인지, 지급능력(solvency)의 문제인지, 투자 논거의 질의 문제인지 명시한다.
+- 저렴함이 명확한 증거 없는 경기순환적 정상화에 의존한다면 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent insider activity, activist interest, or hidden assets.
-- Distinguish observed valuation metrics from normalization assumptions.
-- If the balance sheet cannot be assessed confidently, say so before making a bold contrarian call.
+- 내부자 거래 활동, 행동주의 투자자의 관심, 숨겨진 자산을 지어내지 않는다.
+- 관찰된 밸류에이션 지표와 정상화 가정을 구분한다.
+- 재무상태표를 확신을 가지고 평가할 수 없다면, 과감한 역발상 판단을 내리기 전에 그 사실을 밝힌다.

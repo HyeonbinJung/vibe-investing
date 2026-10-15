@@ -1,83 +1,83 @@
 ---
 name: financial-report
-description: Package investing analysis into a publishable financial-report style with institutional section flow, thesis framing, valuation context, catalysts, risks, tables, and financial charts. Use when an agent needs to turn existing research into a broker-style or professional finance report for equities, crypto, credit, commodities, portfolios, or macro topics, including chart-heavy outputs such as indicator charts, OHLCV charts, line charts, bar charts, pie charts, and comparison visuals, while keeping the result structured enough for an external docx, pdf, markdown, or spreadsheet skill to render final files.
+description: "투자 분석을 기관투자자 수준의 섹션 흐름, 투자 논리(thesis) 프레이밍, 밸류에이션 맥락, 촉매(catalysts), 리스크, 표, 금융 차트를 갖춘 퍼블리싱 가능한 금융 리포트(financial report) 스타일로 패키징한다. 에이전트가 기존 리서치를 주식, 암호화폐, 크레딧, 원자재, 포트폴리오, 매크로 주제에 대한 증권사 스타일(broker-style) 또는 전문 금융 리포트로 전환해야 할 때 사용하며, 지표 차트, OHLCV 차트, 선 차트(line chart), 막대 차트(bar chart), 파이 차트(pie chart), 비교 시각화 등 차트 중심 산출물을 포함한다. 결과물은 외부 docx, pdf, markdown, 스프레드시트 스킬이 최종 파일을 렌더링할 수 있을 만큼 구조화된 형태로 유지한다."
 ---
 
-# Financial Report
+# 금융 리포트
 
-## Overview
+## 개요
 
-Use this skill to transform completed analysis into a polished financial report with a clear investment narrative, publication-ready structure, and supporting charts. Focus on editorial packaging, visual clarity, and analytical communication rather than file conversion alone.
+이 스킬은 완료된 분석을 명확한 투자 내러티브, 출판 수준의 구조, 뒷받침하는 차트를 갖춘 완성도 높은 금융 리포트로 전환하는 데 사용한다. 단순한 파일 변환이 아니라 편집 패키징, 시각적 명료성, 분석 커뮤니케이션에 집중한다.
 
-## Quick Start
+## 빠른 시작
 
-- Start only after the core investment analysis or dataset already exists.
-- Identify the asset or topic, target audience, report date, author or desk if provided, and the intended stance or key takeaway.
-- Decide whether the report is recommendation-led, market-update-led, valuation-led, or data-dashboard-led before writing.
-- Read `references/financial-report-template.md` for the canonical report skeleton.
-- Read `references/style-rules.md` for tone and section ordering.
-- Read `references/chart-playbook.md` when the report includes indicators, OHLCV, line, pie, bar, or comparison charts.
-- Read `references/chart-rendering-backends.md` when the report must generate chart images for downstream documents.
+- 핵심 투자 분석 또는 데이터셋이 이미 존재할 때만 시작한다.
+- 대상 자산 또는 주제, 목표 독자, 리포트 일자, 제공된 경우 작성자 또는 데스크, 의도한 투자 의견 또는 핵심 메시지를 파악한다.
+- 작성 전에 리포트가 투자의견 중심, 시황 업데이트 중심, 밸류에이션 중심, 데이터 대시보드 중심 중 무엇인지 결정한다.
+- 표준 리포트 골격은 `references/financial-report-template.md`를 참조한다.
+- 어조와 섹션 순서는 `references/style-rules.md`를 참조한다.
+- 리포트에 지표, OHLCV, 선, 파이, 막대, 비교 차트가 포함될 때는 `references/chart-playbook.md`를 참조한다.
+- 리포트가 후속 문서용 차트 이미지를 생성해야 할 때는 `references/chart-rendering-backends.md`를 참조한다.
 
-## Core Workflow
+## 핵심 워크플로
 
-### 1. Build the report frame
+### 1. 리포트 골격을 구성한다
 
-- Create a title that combines the subject, the main hook, and the current stance or focus.
-- Add a compact metadata block with date, coverage target, time horizon, and recommendation when available.
-- Write an executive summary that makes the report's main conclusion clear immediately.
+- 주제, 핵심 포인트, 현재 투자 의견 또는 초점을 결합한 제목을 만든다.
+- 가능한 경우 일자, 커버리지 대상, 투자 기간, 투자의견을 담은 간결한 메타데이터 블록을 추가한다.
+- 리포트의 핵심 결론이 즉시 드러나는 요약(executive summary)을 작성한다.
 
-### 2. Lead with the investment view
+### 2. 투자 관점을 앞세운다
 
-- Surface the recommendation, thesis, valuation stance, or market view before background detail.
-- Present the main reasons to own, avoid, monitor, or rotate into the asset in concise bullets.
-- Keep the report directional, not merely descriptive.
+- 배경 설명보다 투자의견, 투자 논리, 밸류에이션 판단, 시장 전망을 먼저 제시한다.
+- 해당 자산을 보유, 회피, 관찰, 또는 비중 전환해야 하는 핵심 근거를 간결한 글머리 기호로 제시한다.
+- 리포트는 단순히 서술적인 데 그치지 않고 방향성을 갖도록 한다.
 
-### 3. Organize the body like professional finance research
+### 3. 본문을 전문 금융 리서치처럼 구성한다
 
-- Use a consistent order: summary, thesis, subject overview, key drivers, valuation or metric context, charts and exhibits, catalysts, risks, and conclusion.
-- Convert raw notes into claim-evidence form rather than source-dump prose.
-- Keep tables and charts close to the argument they support.
+- 일관된 순서를 사용한다: 요약, 투자 논리, 대상 개요, 핵심 동인, 밸류에이션 또는 지표 맥락, 차트 및 도표, 촉매, 리스크, 결론.
+- 원자료 메모를 출처를 나열하는 산문이 아니라 주장-근거 형식으로 전환한다.
+- 표와 차트는 그것이 뒷받침하는 논지 가까이에 배치한다.
 
-### 4. Add charts intentionally
+### 4. 차트를 의도적으로 추가한다
 
-- Choose chart types based on the analytical question rather than decoration.
-- Use OHLCV or candlestick-style charts for price action and market structure.
-- Use line charts for time-series comparisons, indicators, trends, and benchmark-relative moves.
-- Use bar charts for ranked comparisons, period-over-period changes, and peer snapshots.
-- Use pie charts only for composition views such as revenue mix, portfolio weights, or ownership mix.
-- Label axes, units, periods, legends, and sources clearly.
-- Prefer TradingView `lightweight-charts` first for finance-native time-series visuals.
-- Fall back to `matplotlib.pyplot` when the chart type is unsupported, awkward, or faster to render there.
-- Export every chart as an image artifact that a downstream document generator can embed directly.
+- 장식이 아니라 분석적 질문에 따라 차트 유형을 선택한다.
+- 가격 움직임과 시장 구조에는 OHLCV 또는 캔들스틱 형태의 차트를 사용한다.
+- 시계열 비교, 지표, 추세, 벤치마크 대비 움직임에는 선 차트를 사용한다.
+- 순위 비교, 기간 대비 변화, 동종업체 스냅샷에는 막대 차트를 사용한다.
+- 파이 차트는 매출 구성, 포트폴리오 비중, 지분 구성 등 구성 비율을 보여줄 때만 사용한다.
+- 축, 단위, 기간, 범례, 출처를 명확히 표기한다.
+- 금융 고유의 시계열 시각화에는 TradingView `lightweight-charts`를 우선 사용한다.
+- 차트 유형이 지원되지 않거나, 구현이 어색하거나, 렌더링이 더 빠른 경우에는 `matplotlib.pyplot`으로 대체한다.
+- 모든 차트는 후속 문서 생성기가 바로 삽입할 수 있는 이미지 산출물로 내보낸다.
 
-### 5. Adapt by asset type
+### 5. 자산 유형에 맞게 조정한다
 
-- For equities, emphasize business model, earnings path, valuation range, catalysts, and operating charts.
-- For crypto, emphasize protocol utility, adoption, token mechanics, valuation framing, on-chain or market indicators, and risk.
-- For credit, emphasize cash generation, leverage, refinancing, spread behavior, covenant risk, and downside protection.
-- For commodities, emphasize supply-demand setup, cycle position, macro drivers, inventory or curve data, and scenario ranges.
-- For macro or portfolio reports, emphasize regime drivers, allocation logic, exposures, and benchmarking visuals.
+- 주식은 비즈니스 모델, 이익 경로, 밸류에이션 범위, 촉매, 영업 지표 차트를 강조한다.
+- 암호화폐는 프로토콜 효용, 채택률, 토큰 메커니즘, 밸류에이션 프레이밍, 온체인 또는 시장 지표, 리스크를 강조한다.
+- 크레딧은 현금 창출력, 레버리지, 차환, 스프레드 움직임, 약정(covenant) 리스크, 하방 보호를 강조한다.
+- 원자재는 수급 구도, 사이클 위치, 매크로 동인, 재고 또는 선물 곡선 데이터, 시나리오 범위를 강조한다.
+- 매크로 또는 포트폴리오 리포트는 국면 동인, 자산배분 논리, 익스포저, 벤치마크 비교 시각화를 강조한다.
 
-### 6. Prepare for downstream rendering
+### 6. 후속 렌더링을 준비한다
 
-- Output clean sectioned markdown or another neutral structured form unless the user explicitly asks for something else.
-- Keep headings, tables, chart captions, footnotes, and disclaimers easy for an external formatting skill to preserve.
-- Do not hard-code page-layout assumptions that belong to downstream docx or pdf tooling.
+- 사용자가 명시적으로 다른 형식을 요청하지 않는 한, 섹션이 깔끔하게 구분된 마크다운 또는 기타 중립적 구조화 형식으로 출력한다.
+- 제목, 표, 차트 캡션, 각주, 면책 문구를 외부 서식 스킬이 쉽게 보존할 수 있도록 유지한다.
+- 후속 docx 또는 pdf 도구가 담당해야 할 페이지 레이아웃 가정을 하드코딩하지 않는다.
 
-## Output Requirements
+## 출력 요건
 
-- Include: title, summary, thesis or main view, supporting analysis, charts or exhibit list, risks, and conclusion.
-- Keep the writing concise, directional, and publication-ready.
-- Separate observed facts from judgment calls.
-- Make charts analytical, not ornamental.
-- Make sure the structure can be passed directly into an external formatting skill.
+- 포함 항목: 제목, 요약, 투자 논리 또는 핵심 관점, 뒷받침 분석, 차트 또는 도표 목록, 리스크, 결론.
+- 문장은 간결하고 방향성이 있으며 출판 가능한 수준으로 작성한다.
+- 관찰된 사실과 판단을 구분한다.
+- 차트는 장식이 아니라 분석적이어야 한다.
+- 구조를 외부 서식 스킬에 그대로 전달할 수 있도록 한다.
 
-## Guardrails
+## 가드레일
 
-- Do not invent a recommendation unsupported by the source analysis.
-- Do not add charts that do not answer a real question.
-- Do not use pie charts for time-series data or too many categories.
-- Do not let visual polish overwhelm analytical clarity.
-- Do not rely on a specific file extension or rendering engine.
-- Do not keep charts only as interactive widgets when the report requires embeddable document assets.
+- 원천 분석이 뒷받침하지 않는 투자의견을 지어내지 않는다.
+- 실제 질문에 답하지 않는 차트를 추가하지 않는다.
+- 시계열 데이터나 범주가 너무 많은 데이터에 파이 차트를 사용하지 않는다.
+- 시각적 완성도가 분석적 명료성을 압도하지 않도록 한다.
+- 특정 파일 확장자나 렌더링 엔진에 의존하지 않는다.
+- 리포트에 삽입 가능한 문서 자산이 필요할 때 차트를 인터랙티브 위젯으로만 남겨두지 않는다.

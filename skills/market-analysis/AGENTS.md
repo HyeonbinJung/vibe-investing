@@ -1,19 +1,19 @@
-# Market Analysis Top-Level Guide
+# 시장 분석 최상위 가이드
 
-## Scope
+## 적용 범위
 
-- Apply these rules to `skills/market-analysis/` and its descendants unless a deeper file overrides them.
+- 하위 파일이 별도로 규정하지 않는 한, 이 규칙을 `skills/market-analysis/` 및 그 하위 항목에 적용한다.
 
-## Purpose
+## 목적
 
-- Store market-level skills such as macro, liquidity, sentiment, sector, and regime analysis.
+- 매크로, 유동성, 투자심리, 섹터, 국면(regime) 분석 등 시장 단위 스킬을 보관한다.
 
-## Structure
+## 구조
 
-- Prefer flat skill folders directly under `skills/market-analysis/`.
-- Keep the structure shallow and easy to scan.
+- `skills/market-analysis/` 바로 아래에 평평한(flat) 스킬 폴더를 두는 방식을 우선한다.
+- 구조는 얕고 한눈에 파악하기 쉽게 유지한다.
 
-## Rules
+## 규칙
 
-- Focus on market state, flows, policy, liquidity, or cross-asset context rather than single-name bottom-up valuation.
-- Make timeframe and transmission mechanism explicit.
+- 개별 종목의 바텀업 밸류에이션보다 시장 상태, 자금 흐름, 정책, 유동성, 자산 간(cross-asset) 맥락에 집중한다.
+- 분석 기간(timeframe)과 전달 경로(transmission mechanism)를 명시한다.

@@ -1,61 +1,61 @@
 ---
 name: ben-graham
-description: Analyze an investment through Benjamin Graham's conservative value-investing lens. Use when the analysis should focus on margin of safety, balance-sheet strength, earnings stability, Graham-style valuation measures such as Graham Number or net-net logic, and avoidance of speculation or aggressive growth assumptions.
+description: 벤저민 그레이엄(Benjamin Graham)의 보수적 가치투자(value investing) 관점으로 투자 대상을 분석한다. 안전마진(margin of safety), 재무상태표의 건전성, 이익의 안정성, 그레이엄 넘버(Graham Number)나 순유동자산(net-net) 논리 같은 그레이엄식 밸류에이션 지표, 투기 및 공격적 성장 가정의 회피에 초점을 맞춰야 할 때 사용한다.
 ---
 
-# Ben Graham
+# 벤 그레이엄(Ben Graham)
 
-## Overview
+## 개요
 
-Use this skill to evaluate whether a security offers true margin of safety based on hard assets, conservative earnings power, and financial strength.
+이 스킬은 유형자산, 보수적으로 추정한 이익창출력(earning power), 재무 건전성을 바탕으로 해당 증권이 진정한 안전마진을 제공하는지 평가할 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Demand a margin of safety before becoming interested.
-- Favor balance-sheet strength over exciting stories.
-- Prefer proven earnings stability to optimistic future growth.
-- Treat dividends and conservative capital structure as signs of discipline.
-- Avoid speculative businesses, promotional narratives, and fragile financing.
+- 관심을 갖기 전에 먼저 안전마진을 요구한다.
+- 흥미로운 스토리보다 재무상태표의 건전성을 중시한다.
+- 낙관적인 미래 성장보다 검증된 이익 안정성을 선호한다.
+- 배당과 보수적인 자본구조를 규율의 신호로 본다.
+- 투기적 사업, 홍보성 내러티브, 취약한 자금조달 구조를 피한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Check financial strength
+### 1. 재무 건전성 점검
 
-- Review leverage, liquidity, working-capital coverage, and near-term solvency.
-- Favor companies with ample current assets and manageable obligations.
+- 레버리지, 유동성, 운전자본 커버리지, 단기 지급능력을 검토한다.
+- 유동자산이 충분하고 부채 부담이 감당 가능한 기업을 선호한다.
 
-### 2. Review earning power
+### 2. 이익창출력 검토
 
-- Examine whether earnings have been stable across multiple years.
-- Penalize cyclicality, sharp earnings volatility, or repeated losses.
+- 이익이 여러 해에 걸쳐 안정적이었는지 살펴본다.
+- 경기순환성, 급격한 이익 변동성, 반복적인 손실에는 감점을 준다.
 
-### 3. Apply conservative valuation
+### 3. 보수적 밸류에이션 적용
 
-- Use Graham-style valuation anchors such as earnings-based valuation, asset backing, net current asset value, or similar downside-aware measures.
-- Avoid relying on distant terminal optimism.
+- 이익 기반 밸류에이션, 자산 담보력(asset backing), 순유동자산가치(NCAV) 또는 이와 유사한 하방 위험을 고려한 지표 등 그레이엄식 밸류에이션 기준점을 사용한다.
+- 먼 미래의 잔존가치(terminal value)에 대한 낙관에 의존하지 않는다.
 
-### 4. Judge the margin of safety
+### 4. 안전마진 판단
 
-- Compare current price with conservative value estimates.
-- State whether the discount is large enough to protect against error.
+- 현재 주가를 보수적 가치 추정치와 비교한다.
+- 할인 폭이 오류로부터 보호해 줄 만큼 충분한지 명시한다.
 
-### 5. Frame the decision
+### 5. 의사결정 정리
 
-- End with a clear stance and explain whether the case is supported by asset protection, earnings stability, and valuation discount.
+- 명확한 입장으로 마무리하고, 투자 논거가 자산 보호, 이익 안정성, 밸류에이션 할인에 의해 뒷받침되는지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when the company is financially strong, reasonably understandable, and available at a clear discount to conservative value.
-- Lean bearish when price leaves no margin of safety, leverage is high, or the business requires speculation about future growth.
-- Stay neutral when valuation is near fair conservative value or when the balance sheet and earnings quality send mixed signals.
+- 기업이 재무적으로 견실하고, 합리적으로 이해 가능하며, 보수적 가치 대비 뚜렷한 할인가에 거래되면 강세 쪽으로 기운다.
+- 주가에 안전마진이 남아 있지 않거나, 레버리지가 높거나, 사업이 미래 성장에 대한 투기를 요구하면 약세 쪽으로 기운다.
+- 밸류에이션이 보수적 적정가치에 근접하거나 재무상태표와 이익의 질이 엇갈린 신호를 보내면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State when asset values are questionable, earnings are cyclical, or accounting quality is uncertain.
-- Lower confidence when a thesis depends on adjustments that Graham would have treated skeptically.
+- 자산가치가 의심스럽거나, 이익이 경기순환적이거나, 회계 품질이 불확실한 경우 이를 명시한다.
+- 그레이엄이라면 회의적으로 보았을 조정에 투자 논거가 의존하는 경우 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent balance-sheet strength, dividend history, or intrinsic value.
-- Distinguish reported figures from normalization assumptions.
-- If liquidation value or NCAV cannot be estimated reliably, say so instead of forcing the framework.
+- 재무상태표의 건전성, 배당 이력, 내재가치를 지어내지 않는다.
+- 보고된 수치와 정상화(normalization) 가정을 구분한다.
+- 청산가치나 NCAV를 신뢰성 있게 추정할 수 없다면 프레임워크를 억지로 적용하지 말고 그 사실을 밝힌다.

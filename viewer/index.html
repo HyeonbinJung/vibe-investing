@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vibe Investing 스킬 브라우저</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+<style>
+  :root {
+    --bg: #f7f7f5; --panel: #ffffff; --text: #1d1d1f; --muted: #6b6b70;
+    --line: #e4e4e0; --accent: #1f6feb; --accent-soft: #e8f0fe; --code: #f1f1ee;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111214; --panel: #1a1b1e; --text: #e8e8ea; --muted: #9a9aa2;
+      --line: #2c2d31; --accent: #6ea8ff; --accent-soft: #1d2a40; --code: #24252a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font-family: "Noto Sans KR", system-ui, sans-serif; line-height: 1.7; }
+  header { padding: 20px 24px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+  .layout { display: grid; grid-template-columns: 300px 1fr; min-height: calc(100vh - 82px); }
+  nav { border-right: 1px solid var(--line); padding: 16px; overflow-y: auto; background: var(--panel); }
+  nav input { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--bg); color: var(--text); font: inherit; font-size: 14px; }
+  nav h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 18px 0 6px; }
+  nav a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--text);
+    text-decoration: none; font-size: 14px; }
+  nav a:hover { background: var(--accent-soft); }
+  nav a.active { background: var(--accent-soft); color: var(--accent); font-weight: 500; }
+  nav a.ref { padding-left: 24px; font-size: 13px; color: var(--muted); }
+  main { padding: 32px 40px; max-width: 900px; min-width: 0; }
+  main pre { background: var(--code); padding: 14px; border-radius: 8px; overflow-x: auto; }
+  main code { background: var(--code); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+  main pre code { padding: 0; background: none; }
+  main table { border-collapse: collapse; display: block; overflow-x: auto; }
+  main th, main td { border: 1px solid var(--line); padding: 6px 10px; }
+  main a { color: var(--accent); }
+  .meta { background: var(--accent-soft); border-radius: 8px; padding: 12px 16px; font-size: 14px; margin-bottom: 20px; }
+  @media (max-width: 760px) {
+    .layout { grid-template-columns: 1fr; }
+    nav { border-right: none; border-bottom: 1px solid var(--line); max-height: 40vh; }
+    main { padding: 20px 16px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Vibe Investing 스킬 브라우저</h1>
+  <p>투자 분석 스킬(SKILL.md)을 한눈에 탐색합니다</p>
+</header>
+<div class="layout">
+  <nav>
+    <input id="search" type="search" placeholder="스킬 검색…">
+    <h2>개요</h2>
+    <a href="#README.md" data-path="README.md">README</a>
+    <div id="list"></div>
+  </nav>
+  <main id="content">불러오는 중…</main>
+</div>
+<script>
+const CATEGORY_LABELS = {
+  "data-access": "데이터 수집",
+  "fundamental-analysis": "기업 분석",
+  "investor-personas": "투자 대가 페르소나",
+  "market-analysis": "시장 분석",
+  "output-formats": "출력 형식",
+  "portfolio": "포트폴리오",
+  "quantitative-analysis": "퀀트 분석",
+};
+let skills = [];
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function renderList(filter = "") {
+  const q = filter.trim().toLowerCase();
+  const groups = {};
+  for (const s of skills) {
+    if (q && !(s.name + " " + s.description).toLowerCase().includes(q)) continue;
+    (groups[s.category] ||= []).push(s);
+  }
+  let html = "";
+  for (const [cat, items] of Object.entries(groups)) {
+    html += `<h2>${escapeHtml(CATEGORY_LABELS[cat] || cat)}</h2>`;
+    for (const s of items) {
+      html += `<a href="#${s.path}" data-path="${s.path}">${escapeHtml(s.name)}</a>`;
+      for (const r of s.references) {
+        html += `<a class="ref" href="#${r}" data-path="${r}">${escapeHtml(r.split("/").pop())}</a>`;
+      }
+    }
+  }
+  document.getElementById("list").innerHTML = html || "<p>검색 결과가 없습니다.</p>";
+  highlight();
+}
+
+function highlight() {
+  const current = decodeURIComponent(location.hash.slice(1)) || "README.md";
+  document.querySelectorAll("nav a").forEach((a) => a.classList.toggle("active", a.dataset.path === current));
+}
+
+async function load() {
+  const p = decodeURIComponent(location.hash.slice(1)) || "README.md";
+  const res = await fetch("/api/doc?path=" + encodeURIComponent(p));
+  let text = await res.text();
+  let meta = "";
+  const fm = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+  if (fm) {
+    const skill = skills.find((s) => s.path === p);
+    if (skill) meta = `<div class="meta"><strong>${escapeHtml(skill.name)}</strong><br>${escapeHtml(skill.description)}</div>`;
+    text = text.slice(fm[0].length);
+  }
+  document.getElementById("content").innerHTML = meta + marked.parse(text);
+  highlight();
+  window.scrollTo(0, 0);
+}
+
+(async () => {
+  skills = await (await fetch("/api/skills")).json();
+  renderList();
+  document.getElementById("search").addEventListener("input", (e) => renderList(e.target.value));
+  window.addEventListener("hashchange", load);
+  load();
+})();
+</script>
+</body>
+</html>

@@ -1,82 +1,82 @@
 ---
 name: company-analysis
-description: Automatically analyze a company or company-related finance situation from a short user prompt such as a company name, "analyze [company]," M&A, LBO, IPO, debt, credit, or risk requests. Use when an agent must infer the correct valuation and finance framework without asking follow-up questions, begin from market-implied expectations instead of immediate fair value, run Reverse DCF before Forward DCF for listed companies, perform web-verified data gathering and deal-radar checks, defend against hallucinations with explicit data tags and uncertainty statements, and produce a plain-text output with no markdown and no row-column tables.
+description: "기업명, \"[기업] 분석(analyze [company])\", M&A, LBO, IPO, 부채(debt), 신용(credit), 리스크(risk) 요청 등 짧은 사용자 프롬프트만으로 기업 또는 기업 관련 재무 상황을 자동 분석한다. 에이전트가 추가 질문 없이 적절한 밸류에이션 및 재무 프레임워크를 추론해야 할 때, 곧바로 적정가치를 제시하는 대신 시장 내재 기대치(market-implied expectations)에서 출발해야 할 때, 상장기업에 대해 순DCF(Forward DCF)보다 역DCF(Reverse DCF)를 먼저 수행해야 할 때, 웹 검증 기반 데이터 수집 및 딜 레이더(Deal Radar) 점검을 수행해야 할 때, 명시적 데이터 태그와 불확실성 표기로 할루시네이션을 방어해야 할 때, 그리고 마크다운과 행·열 표 없이 일반 텍스트로 결과를 출력해야 할 때 사용한다."
 ---
 
-# Company Analysis
+# 기업 분석
 
-## Overview
+## 개요
 
-Use this skill to produce an IB-style investment analysis from minimal user input. Start from what the current price already implies, not from a fair-value claim, and force every valuation conclusion through verified data, explicit assumptions, and expectation decomposition.
+이 스킬은 최소한의 사용자 입력만으로 IB 스타일의 투자 분석을 작성하는 데 사용한다. 적정가치 주장이 아니라 현재 주가가 이미 내포하고 있는 기대치에서 출발하며, 모든 밸류에이션 결론은 검증된 데이터, 명시적 가정, 기대치 분해를 반드시 거치도록 한다.
 
-## Quick Start
+## 빠른 시작
 
-- If the user provides only a company name or a short prompt such as "[Company] analyze," do not ask clarifying questions. Infer the company type and run the most appropriate workflow immediately.
-- For listed companies, always define the Narrative first and run Reverse DCF before Forward DCF.
-- Run web research before using any revenue, profit, debt, market cap, or transaction figure.
-- Read `references/analysis-orchestration.md` for routing logic and framework selection.
-- Read `references/data-integrity-and-deal-radar.md` for hallucination defense and mandatory pre-analysis searches.
-- Read `references/output-contract.md` for the exact output shape and plain-text rules.
+- 사용자가 기업명만 제시하거나 "[기업] 분석"과 같은 짧은 프롬프트만 제공하더라도 확인 질문을 하지 않는다. 기업 유형을 추론하여 가장 적합한 워크플로를 즉시 실행한다.
+- 상장기업의 경우 항상 내러티브(Narrative)를 먼저 정의하고, 순DCF(Forward DCF)보다 역DCF(Reverse DCF)를 먼저 수행한다.
+- 매출, 이익, 부채, 시가총액, 거래 관련 수치를 사용하기 전에 반드시 웹 리서치를 수행한다.
+- 라우팅 로직과 프레임워크 선택은 `references/analysis-orchestration.md`를 참조한다.
+- 할루시네이션 방어와 분석 전 필수 검색 항목은 `references/data-integrity-and-deal-radar.md`를 참조한다.
+- 정확한 출력 형식과 일반 텍스트 규칙은 `references/output-contract.md`를 참조한다.
 
-## Core Workflow
+## 핵심 워크플로
 
-### 1. Route the request automatically
+### 1. 요청을 자동으로 라우팅한다
 
-- Infer the requested analysis from the prompt without follow-up questions.
-- Use the default listed-company stack when the intent is ambiguous: Narrative, Reverse DCF, Forward DCF, Trading Comps, Sensitivity, and So What.
-- Use the framework-routing rules in `references/analysis-orchestration.md`.
+- 추가 질문 없이 프롬프트로부터 요청된 분석 유형을 추론한다.
+- 의도가 모호한 경우 기본 상장기업 스택을 사용한다: 내러티브(Narrative), 역DCF(Reverse DCF), 순DCF(Forward DCF), 트레이딩 컴프스(Trading Comps), 민감도 분석(Sensitivity), So What.
+- `references/analysis-orchestration.md`의 프레임워크 라우팅 규칙을 따른다.
 
-### 2. Gather and tag data before modeling
+### 2. 모델링 전에 데이터를 수집하고 태깅한다
 
-- Search the web for actual disclosed financial data before using any revenue, earnings, debt, or valuation number.
-- Tag every number as `[Actual]`, `[Estimated]`, or `[Assumption]`.
-- Never label a number as `[Actual]` unless the underlying source has been verified and cited.
-- State uncertainty explicitly whenever the data is unavailable, stale, private, disputed, or not yet reported.
+- 매출, 이익, 부채, 밸류에이션 수치를 사용하기 전에 실제 공시된 재무 데이터를 웹에서 검색한다.
+- 모든 수치에 `[Actual]`, `[Estimated]`, `[Assumption]` 중 하나의 태그를 붙인다.
+- 근거 출처가 검증되고 인용되지 않은 수치에는 절대 `[Actual]` 태그를 붙이지 않는다.
+- 데이터가 없거나, 오래되었거나, 비공개이거나, 논란이 있거나, 아직 보고되지 않은 경우 불확실성을 명시적으로 밝힌다.
 
-### 3. Run Deal Radar before valuation
+### 3. 밸류에이션 전에 딜 레이더(Deal Radar)를 실행한다
 
-- Search for pending M&A, subsidiary or parent transactions, competitor deals, regulatory or antitrust issues, activism or breakup pressure, and major shareholder ownership changes.
-- Distinguish rumor, official announcement, and active regulatory review.
-- Include only web-verified items with cited sources.
+- 진행 중인 M&A, 자회사 또는 모회사 관련 거래, 경쟁사 딜, 규제 또는 반독점 이슈, 행동주의 또는 분할 압력, 주요 주주 지분 변동을 검색한다.
+- 루머, 공식 발표, 규제 심사 진행 중인 사안을 구분한다.
+- 출처가 인용된 웹 검증 항목만 포함한다.
 
-### 4. Start from Narrative and Expectations
+### 4. 내러티브와 기대치에서 출발한다
 
-- Define the story the market is pricing into the current stock or enterprise value.
-- Translate that story into growth, margin, and reinvestment expectations.
-- Run Reverse DCF before any Forward DCF for listed companies.
-- Test whether the implied expectations are realistic relative to industry structure and operating history.
+- 시장이 현재 주가 또는 기업가치에 반영하고 있는 스토리를 정의한다.
+- 그 스토리를 성장률, 이익률, 재투자 기대치로 변환한다.
+- 상장기업의 경우 순DCF(Forward DCF)보다 역DCF(Reverse DCF)를 먼저 수행한다.
+- 내재 기대치가 산업 구조와 과거 영업 실적에 비추어 현실적인지 검증한다.
 
-### 5. Run the relevant framework stack
+### 5. 관련 프레임워크 스택을 실행한다
 
-- Use DCF on an FCFF basis when the business supports a cash-flow view and the data is sufficient.
-- Use Trading Comps to interpret compressed expectations through multiples, not as a standalone verdict.
-- Use SOTP for holding companies, conglomerates, or businesses with clearly separable segments.
-- Use Sensitivity and Scenario Analysis for all major valuation outputs.
-- Use M&A, LBO, IPO, Credit, or Operating Model frameworks when the prompt directly calls for them.
+- 사업이 현금흐름 관점을 뒷받침하고 데이터가 충분한 경우 FCFF 기준의 DCF를 사용한다.
+- 트레이딩 컴프스(Trading Comps)는 단독 결론이 아니라, 멀티플을 통해 압축된 기대치를 해석하는 용도로 사용한다.
+- 지주회사, 복합기업, 또는 사업부문이 명확히 분리되는 기업에는 SOTP를 사용한다.
+- 모든 주요 밸류에이션 결과에 대해 민감도 분석(Sensitivity)과 시나리오 분석(Scenario Analysis)을 수행한다.
+- 프롬프트가 직접 요구하는 경우 M&A, LBO, IPO, 신용(Credit), 영업 모델(Operating Model) 프레임워크를 사용한다.
 
-### 6. Translate valuation into decision language
+### 6. 밸류에이션을 의사결정 언어로 전환한다
 
-- State what the current price requires, not just what your model says.
-- Quantify the growth CAGR, EBIT margin, and reinvestment rate needed to justify the current price when the expectation gap matters.
-- If your implied value and the current market value differ by more than 30 percent, mark it as caution and explain why.
+- 모델이 산출한 값만이 아니라, 현재 주가가 무엇을 요구하는지를 서술한다.
+- 기대치 격차가 중요한 경우, 현재 주가를 정당화하는 데 필요한 성장률 CAGR, EBIT 이익률, 재투자율을 정량화한다.
+- 산출한 내재가치와 현재 시장가치의 차이가 30%를 초과하면 주의(caution)로 표시하고 그 이유를 설명한다.
 
-### 7. Output in the required format
+### 7. 요구된 형식으로 출력한다
 
-- Do not use markdown.
-- Do not use row-column tables.
-- Use the required plain-text block order defined in `references/output-contract.md`.
+- 마크다운을 사용하지 않는다.
+- 행·열 표를 사용하지 않는다.
+- `references/output-contract.md`에 정의된 일반 텍스트 블록 순서를 따른다.
 
-## Mandatory Rules
+## 필수 규칙
 
-- Do not ask clarifying questions before producing the analysis.
-- Do not fabricate data, comps, transactions, or deal rumors.
-- Do not skip Reverse DCF for listed companies.
-- Do not output unsupported certainty when the underlying information is incomplete.
-- Do not present a fair value first and expectations second.
+- 분석을 작성하기 전에 확인 질문을 하지 않는다.
+- 데이터, 비교기업, 거래, 딜 루머를 지어내지 않는다.
+- 상장기업에 대해 역DCF(Reverse DCF)를 생략하지 않는다.
+- 근거 정보가 불완전한 경우 근거 없는 확신을 표현하지 않는다.
+- 적정가치를 먼저 제시하고 기대치를 나중에 제시하지 않는다.
 
-## Guardrails
+## 가드레일
 
-- If disclosed financial data cannot be found, say so clearly and explain that the user can provide direct inputs for a more accurate model.
-- If you switch into a hypothetical scenario, mark it as a non-actual example scenario.
-- If peer multiples or transaction data cannot be verified, state that Bloomberg, Capital IQ, or equivalent verification is needed.
-- If private-company financials are not disclosed, state the uncertainty instead of backfilling missing numbers as facts.
+- 공시된 재무 데이터를 찾을 수 없는 경우 이를 명확히 밝히고, 사용자가 직접 입력값을 제공하면 더 정확한 모델을 만들 수 있음을 설명한다.
+- 가상 시나리오로 전환하는 경우, 실제가 아닌 예시 시나리오임을 표시한다.
+- 비교기업 멀티플이나 거래 데이터를 검증할 수 없는 경우, Bloomberg, Capital IQ 또는 이에 준하는 수단을 통한 검증이 필요함을 명시한다.
+- 비상장기업의 재무 정보가 공시되지 않은 경우, 누락된 수치를 사실처럼 채워 넣지 말고 불확실성을 명시한다.

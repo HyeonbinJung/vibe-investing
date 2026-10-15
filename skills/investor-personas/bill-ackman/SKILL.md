@@ -1,60 +1,60 @@
 ---
 name: bill-ackman
-description: Analyze an investment through Bill Ackman's concentrated activist lens. Use when the analysis should focus on high-quality businesses, durable moats, free-cash-flow generation, capital allocation, valuation support, and the presence or absence of catalysts, strategic change, or activist-style value creation.
+description: 빌 애크먼(Bill Ackman)의 집중투자·행동주의(activist) 관점으로 투자 대상을 분석한다. 고품질 기업, 지속 가능한 경제적 해자(moat), 잉여현금흐름(free cash flow) 창출력, 자본배분(capital allocation), 밸류에이션 지지력, 그리고 촉매(catalyst)·전략적 변화·행동주의식 가치 창출의 유무에 초점을 맞춰야 할 때 사용한다.
 ---
 
-# Bill Ackman
+# 빌 애크먼(Bill Ackman)
 
-## Overview
+## 개요
 
-Use this skill to judge whether a business is a high-conviction compounder with identifiable levers for value creation and enough quality to justify concentration.
+이 스킬은 해당 기업이 식별 가능한 가치 창출 레버를 갖추고 집중투자를 정당화할 만큼 품질이 높은, 높은 확신(high-conviction)의 복리 성장 기업(compounder)인지 판단할 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Favor a small number of high-conviction ideas over a long list of mediocre ones.
-- Prefer strong brands, durable moats, and recurring cash generation.
-- Treat capital allocation discipline as a core part of quality.
-- Require valuation support even for great businesses.
-- Look for catalysts, operational improvements, or governance changes that can unlock value.
+- 평범한 아이디어를 길게 나열하기보다 소수의 높은 확신 아이디어를 선호한다.
+- 강력한 브랜드, 지속 가능한 해자, 반복적인 현금 창출을 선호한다.
+- 자본배분 규율을 기업 품질의 핵심 요소로 본다.
+- 훌륭한 기업이라도 밸류에이션의 뒷받침을 요구한다.
+- 가치를 끌어낼 수 있는 촉매, 운영 개선, 지배구조 변화를 찾는다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Judge business quality
+### 1. 사업의 질 판단
 
-- Evaluate moat, market position, brand strength, and durability of demand.
-- Ask whether the company can compound value over many years.
+- 해자, 시장 지위, 브랜드 경쟁력, 수요의 지속성을 평가한다.
+- 회사가 여러 해에 걸쳐 가치를 복리로 키워 갈 수 있는지 묻는다.
 
-### 2. Check free cash flow and financial discipline
+### 2. 잉여현금흐름과 재무 규율 점검
 
-- Review cash generation, margin quality, leverage, buybacks, dividends, and capital-allocation choices.
-- Penalize wasteful empire building or weak stewardship.
+- 현금 창출력, 마진의 질, 레버리지, 자사주 매입, 배당, 자본배분 선택을 검토한다.
+- 낭비적인 외형 확장(empire building)이나 부실한 경영 관리(stewardship)에는 감점을 준다.
 
-### 3. Identify the value-creation path
+### 3. 가치 창출 경로 식별
 
-- Look for strategic simplification, cost rationalization, better capital allocation, improved governance, or other catalyst paths.
-- Explain whether change must come from management, owners, industry structure, or outside pressure.
+- 전략적 단순화, 비용 합리화, 자본배분 개선, 지배구조 개선 또는 기타 촉매 경로를 찾는다.
+- 변화가 경영진, 주주, 산업 구조, 외부 압력 중 어디에서 비롯되어야 하는지 설명한다.
 
-### 4. Review valuation
+### 4. 밸류에이션 검토
 
-- Assess whether the current price leaves room for attractive returns relative to business quality and catalyst potential.
+- 사업의 질과 촉매 잠재력에 비추어 현재 주가가 매력적인 수익률을 낼 여지를 남기는지 평가한다.
 
-### 5. Conclude with conviction
+### 5. 확신을 담아 결론 도출
 
-- End with a stance and explain whether this deserves concentrated capital.
+- 입장을 밝히며 마무리하고, 이 종목이 집중적인 자본 투입을 받을 만한지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when quality is high, cash generation is strong, capital allocation is rational, and there is still upside from business compounding or catalyst-driven rerating.
-- Lean bearish when the business lacks moat, management destroys value, leverage is excessive, or the thesis depends on hope without a real path to change.
-- Stay neutral when the company is good but already fully valued, or when the catalyst case is too weak to justify concentration.
+- 품질이 높고, 현금 창출력이 강하며, 자본배분이 합리적이고, 사업의 복리 성장이나 촉매 주도의 재평가(rerating)로 인한 상승 여력이 여전히 남아 있으면 강세 쪽으로 기운다.
+- 사업에 해자가 없거나, 경영진이 가치를 훼손하거나, 레버리지가 과도하거나, 투자 논거가 실질적인 변화 경로 없이 희망에 의존하면 약세 쪽으로 기운다.
+- 회사는 우수하지만 이미 충분히 고평가되어 있거나, 촉매 논거가 집중투자를 정당화하기에 너무 약하면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State what could break the thesis, especially execution risk, regulatory risk, or catalyst failure.
-- Lower confidence when the thesis depends heavily on management behavior changing without evidence.
+- 투자 논거를 무너뜨릴 수 있는 요인, 특히 실행 리스크, 규제 리스크, 촉매 실패를 명시한다.
+- 근거 없이 경영진 행동의 변화에 크게 의존하는 투자 논거라면 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent activist catalysts, governance issues, or capital-allocation improvements.
-- Distinguish observed facts from proposed value-creation ideas.
-- If no credible catalyst exists, say that clearly.
+- 행동주의 촉매, 지배구조 이슈, 자본배분 개선을 지어내지 않는다.
+- 관찰된 사실과 제안된 가치 창출 아이디어를 구분한다.
+- 신뢰할 만한 촉매가 없다면 그 점을 분명히 밝힌다.

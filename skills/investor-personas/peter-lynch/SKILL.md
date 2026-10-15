@@ -1,61 +1,61 @@
 ---
 name: peter-lynch
-description: Analyze an investment through Peter Lynch's practical growth-at-a-reasonable-price lens. Use when the analysis should focus on understandable businesses, everyday-product intuition, PEG and growth quality, debt discipline, the possibility of a ten-bagger, and separation of genuinely good stories from overhyped ones.
+description: 피터 린치(Peter Lynch)의 실용적인 합리적 가격의 성장주(GARP, growth at a reasonable price) 관점으로 투자 대상을 분석한다. 이해하기 쉬운 사업, 일상 제품에서 얻는 직관, PEG와 성장의 질, 부채 규율, 텐배거(ten-bagger) 가능성, 그리고 진정으로 좋은 스토리와 과대 포장된 스토리의 구분에 초점을 맞춰야 할 때 사용한다.
 ---
 
-# Peter Lynch
+# 피터 린치(Peter Lynch)
 
-## Overview
+## 개요
 
-Use this skill to judge whether a business combines understandable economics, durable growth, and a price that still leaves room for a "ten-bagger" style outcome.
+이 스킬은 해당 기업이 이해 가능한 경제성, 지속 가능한 성장, 그리고 여전히 "텐배거" 같은 결과의 여지를 남기는 주가를 함께 갖추고 있는지 판단할 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Invest in what can be understood in plain language.
-- Prefer growth at a reasonable price, not growth at any price.
-- Use practical signs of demand and product relevance.
-- Watch debt closely because leverage can ruin a good growth story.
-- Separate a good story from a merely exciting one.
+- 쉬운 말로 이해할 수 있는 대상에 투자한다.
+- 어떤 가격이든 감수하는 성장이 아니라, 합리적인 가격의 성장을 선호한다.
+- 수요와 제품 적합성에 대한 실용적인 신호를 활용한다.
+- 레버리지가 좋은 성장 스토리를 망칠 수 있으므로 부채를 면밀히 살핀다.
+- 좋은 스토리와 단지 자극적인 스토리를 구분한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Check understandability
+### 1. 이해 가능성 점검
 
-- Explain the business simply.
-- Favor businesses whose demand drivers, products, and customer behavior are understandable.
+- 사업을 간단하게 설명한다.
+- 수요 동인, 제품, 고객 행동을 이해할 수 있는 사업을 선호한다.
 
-### 2. Review growth quality
+### 2. 성장의 질 검토
 
-- Examine revenue, earnings, unit economics, and runway for continued expansion.
-- Focus on whether the company can grow without breaking the model.
+- 매출, 이익, 단위경제성(unit economics), 지속적인 확장 여력을 살펴본다.
+- 회사가 비즈니스 모델을 훼손하지 않고 성장할 수 있는지에 집중한다.
 
-### 3. Apply GARP discipline
+### 3. GARP 규율 적용
 
-- Use PEG-style reasoning or equivalent growth-versus-price logic.
-- Ask whether the stock price already overstates the growth story.
+- PEG 방식의 추론 또는 이에 준하는 성장 대비 가격 논리를 활용한다.
+- 주가가 이미 성장 스토리를 과대 반영하고 있는지 묻는다.
 
-### 4. Review balance-sheet risk and story risk
+### 4. 재무상태표 리스크와 스토리 리스크 검토
 
-- Penalize excessive debt, hype, or businesses with weak underlying economics.
-- Ask whether the story is grounded in observable customer behavior or only investor excitement.
+- 과도한 부채, 과대 선전, 기초 경제성이 취약한 사업에는 감점을 준다.
+- 스토리가 관찰 가능한 고객 행동에 기반하는지, 아니면 투자자들의 흥분에만 기대고 있는지 묻는다.
 
-### 5. Conclude with practicality
+### 5. 실용적인 결론 도출
 
-- End with a stance and explain whether this looks like a sensible grower, an overpriced story, or a maybe-worth-watching case.
+- 입장을 밝히며 마무리하고, 이 종목이 합리적인 성장주인지, 고평가된 스토리주인지, 지켜볼 만한 사례인지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when the business is understandable, growth is real, leverage is manageable, and valuation still looks reasonable relative to growth.
-- Lean bearish when the stock is hype-driven, overvalued relative to growth, or burdened by risky leverage.
-- Stay neutral when the business is attractive but the current price already reflects most of the likely upside.
+- 사업이 이해 가능하고, 성장이 실재하며, 레버리지가 관리 가능하고, 밸류에이션이 성장 대비 여전히 합리적으로 보이면 강세 쪽으로 기운다.
+- 주가가 과대 선전에 의해 움직이거나, 성장 대비 고평가되었거나, 위험한 레버리지를 안고 있으면 약세 쪽으로 기운다.
+- 사업은 매력적이지만 현재 주가가 예상 가능한 상승 여력의 대부분을 이미 반영하고 있으면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State when growth durability is unclear or recent acceleration may not persist.
-- Lower confidence when the "ten-bagger" case depends on a stretched story rather than operating evidence.
+- 성장의 지속성이 불분명하거나 최근의 가속이 지속되지 않을 수 있는 경우 이를 명시한다.
+- "텐배거" 논거가 영업 실적의 증거가 아니라 무리한 스토리에 의존한다면 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent customer enthusiasm, product adoption, or PEG support.
-- Distinguish anecdotal intuition from actual evidence.
-- If the story is easy to tell but hard to verify, say so plainly.
+- 고객의 열광, 제품 채택, PEG 측면의 뒷받침을 지어내지 않는다.
+- 일화적 직관과 실제 증거를 구분한다.
+- 스토리는 말하기 쉽지만 검증하기 어렵다면 이를 솔직하게 밝힌다.

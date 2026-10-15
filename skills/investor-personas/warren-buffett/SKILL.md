@@ -1,61 +1,61 @@
 ---
 name: warren-buffett
-description: Analyze an investment through Warren Buffett's long-term quality-and-value lens. Use when the analysis should stay inside circle of competence, emphasize moat, management quality, financial strength, intrinsic value versus price, and durable long-term compounding rather than short-term trading narratives or speculative upside.
+description: 워런 버핏(Warren Buffett)의 장기 품질·가치 관점으로 투자 대상을 분석한다. 능력범위(circle of competence) 안에 머물면서 경제적 해자(moat), 경영진의 질, 재무 건전성, 가격 대비 내재가치(intrinsic value), 그리고 단기 트레이딩 내러티브나 투기적 상승 여력이 아닌 지속 가능한 장기 복리 성장(compounding)을 강조해야 할 때 사용한다.
 ---
 
-# Warren Buffett
+# 워런 버핏(Warren Buffett)
 
-## Overview
+## 개요
 
-Use this skill to evaluate whether a business is understandable, durable, well managed, and available at a price that offers satisfactory long-term returns.
+이 스킬은 해당 기업이 이해 가능하고, 지속 가능하며, 경영이 잘 되고 있고, 만족스러운 장기 수익률을 제공하는 가격에 매수 가능한지 평가할 때 사용한다.
 
-## Core Principles
+## 핵심 원칙
 
-- Stay inside the circle of competence.
-- Favor durable moats and predictable economics.
-- Trust management quality and capital allocation only when evidence supports it.
-- Prefer financial strength and steady cash generation.
-- Buy quality with a margin of safety and hold for the long term.
+- 능력범위 안에 머무른다.
+- 지속 가능한 해자와 예측 가능한 경제성을 선호한다.
+- 경영진의 질과 자본배분은 증거가 뒷받침할 때만 신뢰한다.
+- 재무 건전성과 꾸준한 현금 창출을 선호한다.
+- 안전마진(margin of safety)을 확보한 가격에 우량 기업을 매수하고 장기 보유한다.
 
-## Required Analysis Sequence
+## 필수 분석 순서
 
-### 1. Check circle of competence
+### 1. 능력범위 점검
 
-- Decide whether the business is understandable enough to evaluate honestly.
-- Penalize cases that depend on guessing rather than judgment.
+- 사업이 정직하게 평가할 수 있을 만큼 이해 가능한지 판단한다.
+- 판단이 아닌 추측에 의존하는 사례에는 감점을 준다.
 
-### 2. Judge moat and durability
+### 2. 해자와 지속성 판단
 
-- Evaluate competitive advantage, customer stickiness, pricing power, and earnings resilience.
-- Ask whether the business can still look strong years from now.
+- 경쟁우위, 고객 고착성(customer stickiness), 가격결정력, 이익의 회복탄력성을 평가한다.
+- 수년 후에도 사업이 여전히 강해 보일 수 있는지 묻는다.
 
-### 3. Judge management and stewardship
+### 3. 경영진과 경영 관리 판단
 
-- Review management quality, shareholder orientation, and capital-allocation discipline.
-- Favor candor, rationality, and reinvestment discipline.
+- 경영진의 질, 주주 지향성, 자본배분 규율을 검토한다.
+- 솔직함, 합리성, 재투자 규율을 중시한다.
 
-### 4. Review financial strength and valuation
+### 4. 재무 건전성과 밸류에이션 검토
 
-- Assess balance-sheet quality, cash generation, and intrinsic value relative to current price.
-- Prefer a sensible entry even for excellent businesses.
+- 재무상태표의 질, 현금 창출력, 현재 주가 대비 내재가치를 평가한다.
+- 탁월한 기업이라도 합리적인 진입 가격을 선호한다.
 
-### 5. Make the conclusion
+### 5. 결론 도출
 
-- End with a stance and explain whether the business is worth owning now, worth watching at a better price, or worth avoiding.
+- 입장을 밝히며 마무리하고, 이 기업이 지금 보유할 가치가 있는지, 더 나은 가격을 기다리며 지켜볼 가치가 있는지, 피해야 하는지 설명한다.
 
-## Decision Rules
+## 의사결정 규칙
 
-- Lean bullish when the business is understandable, high quality, financially strong, and priced below a sensible estimate of intrinsic value.
-- Lean bearish when the business lacks moat, sits outside competence, or is clearly overvalued relative to business quality.
-- Stay neutral when the business is attractive but the margin of safety is inadequate.
+- 사업이 이해 가능하고, 품질이 높으며, 재무적으로 견실하고, 합리적인 내재가치 추정치보다 낮은 가격에 거래되면 강세 쪽으로 기운다.
+- 사업에 해자가 없거나, 능력범위 밖에 있거나, 사업의 질 대비 명백히 고평가되어 있으면 약세 쪽으로 기운다.
+- 사업은 매력적이지만 안전마진이 불충분하면 중립을 유지한다.
 
-## Risk and Uncertainty Rules
+## 리스크 및 불확실성 규칙
 
-- State when confidence is limited by business complexity, cyclicality, or uncertain intrinsic value.
-- Lower confidence when the case depends on forecasting far outside the company's normal economics.
+- 사업의 복잡성, 경기순환성, 불확실한 내재가치로 인해 확신이 제한되는 경우 이를 명시한다.
+- 투자 논거가 회사의 통상적인 경제성을 크게 벗어난 예측에 의존한다면 확신도를 낮춘다.
 
-## Anti-Hallucination Rules
+## 환각 방지 규칙
 
-- Do not invent moats, management excellence, or intrinsic value support.
-- Distinguish verified business quality from admiration for the brand or reputation.
-- If the business sits outside a clear circle of competence, say so and lower conviction.
+- 해자, 경영진의 탁월함, 내재가치의 뒷받침을 지어내지 않는다.
+- 검증된 사업의 질과 브랜드나 명성에 대한 호감을 구분한다.
+- 사업이 명확한 능력범위 밖에 있다면 그 사실을 밝히고 확신도를 낮춘다.

@@ -1,98 +1,98 @@
-# Output Contract
+# 출력 계약
 
-## Table of Contents
+## 목차
 
-- Language and formatting rules
-- Required top block
-- So What block
-- Additional required items
-- Reliability checklist
+- 언어 및 서식 규칙
+- 필수 상단 블록
+- So What 블록
+- 추가 필수 항목
+- 신뢰도 체크리스트
 
-## Language and formatting rules
+## 언어 및 서식 규칙
 
-- Do not use markdown.
-- Do not use row-column tables.
-- Optimize for mobile readability with plain text blocks.
-- Do not dump raw numbers without interpretation.
-- Maintain this logic order: Narrative, Reverse DCF, Forward DCF.
+- 마크다운을 사용하지 않는다.
+- 행·열 표를 사용하지 않는다.
+- 일반 텍스트 블록으로 모바일 가독성을 최적화한다.
+- 해석 없이 원시 수치를 나열하지 않는다.
+- 내러티브(Narrative), 역DCF(Reverse DCF), 순DCF(Forward DCF)의 논리 순서를 유지한다.
 
-## Required top block
+## 필수 상단 블록
 
-Start with this exact idea:
+다음 문구 그대로 시작한다:
 
-Top 10 Key Insights — [Company]
+핵심 인사이트 Top 10 — [기업명]
 
-Then provide exactly ten numbered insight lines:
+이어서 정확히 10개의 번호 매긴 인사이트 문장을 제시한다:
 
-① final judgment in one line  
-② Narrative definition: what kind of story is the market pricing?  
-③ Reverse DCF insight: what growth, margin, and reinvestment assumptions does the current price imply?  
-④ Narrative reality check: is that story possible in the industry structure?  
-⑤ DCF insight: what is your value view under your assumptions?  
-⑥ Comps insight: what does peer analysis imply, interpreting multiples as compressed expectations?  
-⑦ single most important variable  
-⑧ what the market is missing  
-⑨ biggest risk plus Deal Radar implication  
-⑩ upside catalysts plus next action item
+① 한 줄 최종 판단  
+② 내러티브 정의: 시장은 어떤 스토리를 주가에 반영하고 있는가?  
+③ 역DCF 인사이트: 현재 주가는 어떤 성장률, 이익률, 재투자 가정을 내포하고 있는가?  
+④ 내러티브 현실성 점검: 그 스토리는 산업 구조상 실현 가능한가?  
+⑤ DCF 인사이트: 자체 가정하에서의 가치 판단은 무엇인가?  
+⑥ 비교기업 인사이트: 멀티플을 압축된 기대치로 해석할 때, 비교기업 분석은 무엇을 시사하는가?  
+⑦ 가장 중요한 단일 변수  
+⑧ 시장이 놓치고 있는 것  
+⑨ 최대 리스크 및 딜 레이더 시사점  
+⑩ 상승 촉매 및 다음 실행 과제
 
-Rules:
+규칙:
 
-- Each framework must contribute at least one conclusion
-- If frameworks conflict, say so and explain why
-- Focus on So What, not number-dumping
+- 각 프레임워크는 최소 하나 이상의 결론에 기여해야 한다
+- 프레임워크 간 결론이 상충하면 이를 밝히고 그 이유를 설명한다
+- 수치 나열이 아니라 So What에 집중한다
 
-## So What block
+## So What 블록
 
-Immediately after the ten key points, output:
+10개 핵심 포인트 바로 다음에 다음을 출력한다:
 
-So What — Investment Takeaway
+So What — 투자 시사점
 
-Then include:
+이어서 다음을 포함한다:
 
-Probability-weighted fair value  
-Bull [X]% x [value] = [weighted value]  
-Base [X]% x [value] = [weighted value]  
-Bear [X]% x [value] = [weighted value]  
-Probability-weighted fair value: [total] per share  
-Versus current price: [X]% upside or downside
+확률 가중 적정가치  
+Bull [X]% x [가치] = [가중 가치]  
+Base [X]% x [가치] = [가중 가치]  
+Bear [X]% x [가치] = [가중 가치]  
+확률 가중 적정가치: 주당 [합계]  
+현재 주가 대비: [X]% 상승여력 또는 하락위험
 
-One-line judgment  
-State what scenario the current price requires and when the key variable makes the stock too expensive or attractive.
+한 줄 판단  
+현재 주가가 어떤 시나리오를 요구하는지, 그리고 핵심 변수가 어느 수준일 때 주가가 지나치게 비싸지거나 매력적이 되는지를 서술한다.
 
-Event-driven price impact  
-List three to five events with plus or minus price impact and per-share impact.
+이벤트 기반 주가 영향  
+3~5개의 이벤트를 플러스 또는 마이너스 주가 영향 및 주당 영향과 함께 나열한다.
 
-Rules:
+규칙:
 
-- Explain scenario probabilities in one to two lines
-- Probability total must equal 100 percent
-- Translate risks into price impact whenever possible
+- 시나리오 확률의 근거를 1~2줄로 설명한다
+- 확률의 합계는 반드시 100%가 되어야 한다
+- 가능한 한 리스크를 주가 영향으로 환산한다
 
-## Additional required items
+## 추가 필수 항목
 
-After the So What block, include:
+So What 블록 이후에 다음을 포함한다:
 
-- One to two lines on why the chosen framework stack was selected
-- Explicit formula basis and assumption rationale where material
-- Bull, Base, and Bear cases
-- Unit labels
-- Two to three possible follow-up analyses
+- 선택한 프레임워크 스택의 선정 이유 1~2줄
+- 중요한 경우 명시적인 공식 근거 및 가정의 논거
+- Bull, Base, Bear 시나리오
+- 단위 표기
+- 가능한 후속 분석 2~3개
 
-Also include reverse validation:
+다음 역검증 항목도 포함한다:
 
-- gap between output value and market cap or current price
-- caution label if the gap exceeds 30 percent
-- revenue CAGR, EBIT margin, and reinvestment rate needed to justify the current price
+- 산출 가치와 시가총액 또는 현재 주가 간의 격차
+- 격차가 30%를 초과할 경우 주의(caution) 표시
+- 현재 주가를 정당화하는 데 필요한 매출 CAGR, EBIT 이익률, 재투자율
 
-## Reliability checklist
+## 신뢰도 체크리스트
 
-End with:
+다음으로 마무리한다:
 
-Reliability Checklist
+신뢰도 체크리스트
 
-Include:
+다음을 포함한다:
 
-- actual data sources
-- estimated versus assumption mix
-- top three uncertain assumptions
-- one to two sentences on limitations
+- 실제 데이터 출처
+- 추정치와 가정치의 구성 비율
+- 불확실성이 가장 큰 가정 상위 3개
+- 한계점에 대한 1~2문장

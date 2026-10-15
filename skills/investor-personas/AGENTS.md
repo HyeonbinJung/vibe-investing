@@ -1,23 +1,23 @@
-# Investor Personas Category Guide
+# 투자자 페르소나 카테고리 가이드
 
-## Scope
+## 적용 범위
 
-- Apply these rules to `skills/investor-personas/` and its descendants unless a deeper file overrides them.
+- 하위 파일에서 별도로 재정의하지 않는 한, 이 규칙을 `skills/investor-personas/` 및 그 하위 항목 전체에 적용한다.
 
-## Purpose
+## 목적
 
-- Store investor-style analysis skills that apply a named investor's framework to an investing question.
+- 특정 투자자의 프레임워크를 투자 질문에 적용하는 투자자 스타일 분석 스킬을 보관한다.
 
-## Structure
+## 구조
 
-- Keep the structure shallow: `skills/investor-personas/<skill-name>/SKILL.md`.
-- Use lowercase hyphen-case for every persona skill folder.
-- Keep each skill standalone and reusable across equities, funds, macro cases, or broader investment judgments when the persona fits.
+- 구조는 얕게 유지한다: `skills/investor-personas/<skill-name>/SKILL.md`.
+- 모든 페르소나 스킬 폴더명은 소문자 하이픈 표기(hyphen-case)를 사용한다.
+- 각 스킬은 독립적으로 동작하도록 하고, 페르소나가 적합한 경우 주식, 펀드, 매크로 사례 또는 보다 넓은 투자 판단 전반에 재사용할 수 있게 유지한다.
 
-## Rules
+## 규칙
 
-- Preserve the investor's actual lens, priorities, and decision style instead of collapsing into generic value-investing language.
-- Convert source agent prompts into reusable investing workflows, not output-schema wrappers.
-- Require a clear investment stance, evidence-led reasoning, and explicit uncertainty.
-- Avoid adding `scripts/`, `references/`, or extra docs in v1 unless they solve a real repeated problem.
-- Keep biographies short or omit them; prioritize decision process, checklist logic, and guardrails.
+- 일반적인 가치투자 용어로 뭉뚱그리지 말고, 해당 투자자의 실제 관점, 우선순위, 의사결정 스타일을 보존한다.
+- 원본 에이전트 프롬프트를 출력 스키마 래퍼가 아닌 재사용 가능한 투자 워크플로로 변환한다.
+- 명확한 투자 입장, 근거 중심의 추론, 명시적인 불확실성 표기를 요구한다.
+- 실제로 반복되는 문제를 해결하는 경우가 아니라면 v1에서는 `scripts/`, `references/` 또는 추가 문서를 만들지 않는다.
+- 약력은 짧게 쓰거나 생략하고, 의사결정 프로세스, 체크리스트 논리, 가드레일을 우선한다.

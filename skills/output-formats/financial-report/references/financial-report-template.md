@@ -1,56 +1,56 @@
-# Financial Report Template
+# 금융 리포트 템플릿
 
-Use this structure as the default shell for a professional finance report.
+전문 금융 리포트의 기본 골격으로 다음 구조를 사용한다.
 
-## 1. Header
+## 1. 헤더
 
-- Report title
-- Coverage target or topic
-- Date
-- Recommendation, stance, or report type
-- Optional analyst or desk
+- 리포트 제목
+- 커버리지 대상 또는 주제
+- 일자
+- 투자의견, 투자 관점 또는 리포트 유형
+- 애널리스트 또는 데스크(선택)
 
-## 2. Executive Summary
+## 2. 요약
 
-- One-paragraph view
-- Two to four thesis bullets
+- 한 문단 분량의 관점
+- 투자 논리 글머리 기호 2~4개
 
-## 3. Main Thesis or View
+## 3. 핵심 투자 논리 또는 관점
 
-- Core thesis
-- Why now
-- Supporting evidence
+- 핵심 투자 논리
+- 왜 지금인가
+- 뒷받침 근거
 
-## 4. Subject Overview
+## 4. 대상 개요
 
-- Business, protocol, issuer, portfolio, or market overview
-- Key operating, financial, or macro drivers
+- 사업, 프로토콜, 발행사, 포트폴리오 또는 시장 개요
+- 핵심 영업, 재무 또는 매크로 동인
 
-## 5. Valuation or Metric Context
+## 5. 밸류에이션 또는 지표 맥락
 
-- Current valuation, indicator, or metric context
-- Base, upside, and downside framing where appropriate
-- Key assumptions
+- 현재 밸류에이션, 지표 또는 측정치 맥락
+- 적절한 경우 기본·상승·하락 시나리오 프레이밍
+- 핵심 가정
 
-## 6. Charts and Exhibits
+## 6. 차트 및 도표
 
-- Price or OHLCV chart if market structure matters
-- Indicator or benchmark line chart if trend matters
-- Composition or mix chart if allocation or segmentation matters
-- Comparison table or bar chart if peer or period comparison matters
+- 시장 구조가 중요하면 가격 또는 OHLCV 차트
+- 추세가 중요하면 지표 또는 벤치마크 선 차트
+- 자산배분이나 세분화가 중요하면 구성 비율 차트
+- 동종업체 또는 기간 비교가 중요하면 비교 표 또는 막대 차트
 
-## 7. Catalysts and Monitoring Points
+## 7. 촉매 및 모니터링 포인트
 
-- Near-term catalysts
-- Medium-term catalysts
-- Metrics to watch
+- 단기 촉매
+- 중기 촉매
+- 관찰할 지표
 
-## 8. Risks
+## 8. 리스크
 
-- Primary risks
-- What would break the thesis
+- 주요 리스크
+- 투자 논리를 무너뜨릴 요인
 
-## 9. Conclusion
+## 9. 결론
 
-- Clear directional close
-- Restate stance and what matters next
+- 명확한 방향성을 담은 마무리
+- 투자 관점과 향후 중요 사항을 재확인

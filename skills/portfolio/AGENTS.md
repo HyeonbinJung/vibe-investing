@@ -1,26 +1,26 @@
-# Portfolio Category Guide
+# 포트폴리오 카테고리 가이드
 
-## Scope
+## 적용 범위
 
-- Apply these rules to `skills/portfolio/` and its descendants unless a deeper file overrides them.
+- 하위 파일이 별도로 규정하지 않는 한, 이 규칙을 `skills/portfolio/` 및 그 하위 항목에 적용한다.
 
-## Purpose
+## 목적
 
-- Store skills for portfolio construction, capital allocation, sizing, and risk management.
+- 포트폴리오 구성, 자본 배분, 포지션 규모 결정, 리스크 관리 스킬을 보관한다.
 
-## Structure
+## 구조
 
-- Prefer flat skill folders directly under `skills/portfolio/`.
+- `skills/portfolio/` 바로 아래에 평평한(flat) 스킬 폴더를 두는 방식을 우선한다.
 
-## Include Here
+## 포함 대상
 
-- Allocation frameworks
-- Position sizing
-- Rebalancing workflows
-- Risk budgeting
+- 자산배분 프레임워크
+- 포지션 사이징
+- 리밸런싱 워크플로
+- 리스크 예산 배분(risk budgeting)
 
-## Rules
+## 규칙
 
-- Focus on portfolio-level decisions rather than single-company analysis.
-- Make constraints explicit, such as risk tolerance, liquidity needs, tax concerns, and diversification targets.
-- Prefer reusable portfolio logic that can operate across mixed-asset portfolios.
+- 개별 기업 분석보다 포트폴리오 수준의 의사결정에 집중한다.
+- 위험 감내 수준, 유동성 필요, 세금 문제, 분산 목표 등 제약 조건을 명시한다.
+- 복합 자산 포트폴리오 전반에 적용할 수 있는 재사용 가능한 포트폴리오 로직을 우선한다.

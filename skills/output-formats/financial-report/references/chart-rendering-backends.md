@@ -1,57 +1,57 @@
-# Chart Rendering Backends
+# 차트 렌더링 백엔드
 
-Use this file when a financial report must generate chart images that can be embedded into a document.
+금융 리포트가 문서에 삽입할 수 있는 차트 이미지를 생성해야 할 때 이 파일을 사용한다.
 
-## Backend Priority
+## 백엔드 우선순위
 
-Use this priority order:
+다음 우선순위를 따른다.
 
 1. TradingView `lightweight-charts`
 2. `matplotlib.pyplot`
 
-## Why this order
+## 이 순서를 따르는 이유
 
-- Prefer `lightweight-charts` for finance-native visuals such as OHLCV, candlestick, volume, and indicator-heavy time-series charts.
-- Prefer `matplotlib` as the fallback for chart types that are not naturally supported by `lightweight-charts`, especially pie charts and other non-core financial compositions.
-- Use the backend that minimizes distortion between the analytical intent and the final embedded image.
+- OHLCV, 캔들스틱, 거래량, 지표 중심 시계열 차트 등 금융 고유의 시각화에는 `lightweight-charts`를 우선한다.
+- `lightweight-charts`가 기본적으로 지원하지 않는 차트 유형, 특히 파이 차트와 기타 비핵심 금융 구성 차트에는 대안으로 `matplotlib`을 우선한다.
+- 분석 의도와 최종 삽입 이미지 사이의 왜곡을 최소화하는 백엔드를 사용한다.
 
-## Use `lightweight-charts` for
+## `lightweight-charts` 사용 대상
 
-- OHLCV and candlestick charts
-- Price plus volume views
-- Time-series indicator charts
-- Benchmark-relative line charts
-- Multi-pane financial chart layouts
+- OHLCV 및 캔들스틱 차트
+- 가격과 거래량 동시 표시
+- 시계열 지표 차트
+- 벤치마크 대비 선 차트
+- 다중 패널 금융 차트 레이아웃
 
-## Use `matplotlib.pyplot` for
+## `matplotlib.pyplot` 사용 대상
 
-- Pie charts
-- Simpler bar charts when static export is enough
-- Composition charts
-- Special-case visuals that are unsupported or cumbersome in `lightweight-charts`
+- 파이 차트
+- 정적 내보내기로 충분한 단순 막대 차트
+- 구성 비율 차트
+- `lightweight-charts`에서 지원되지 않거나 구현이 번거로운 특수 시각화
 
-## Image export rules
+## 이미지 내보내기 규칙
 
-- Export charts as image files for document embedding, preferably `png` unless the task clearly benefits from another format.
-- Keep image dimensions explicit and consistent across a report.
-- Preserve readable labels, legends, and titles at the exported size.
-- Name files predictably so a downstream formatter can place them deterministically.
+- 문서 삽입용으로 차트를 이미지 파일로 내보내며, 다른 형식이 명백히 유리한 경우가 아니면 `png`를 우선한다.
+- 이미지 크기를 명시하고 리포트 전체에서 일관되게 유지한다.
+- 내보낸 크기에서도 레이블, 범례, 제목이 읽힐 수 있도록 유지한다.
+- 후속 포매터가 결정론적으로 배치할 수 있도록 파일명을 예측 가능하게 짓는다.
 
-## Lightweight Charts export guidance
+## Lightweight Charts 내보내기 가이드
 
-- Render the chart in a browser-capable environment.
-- Use the chart screenshot API to obtain a canvas image of the rendered chart.
-- Serialize the resulting canvas into an image artifact for embedding.
-- Preserve panes and overlays when they are analytically meaningful.
+- 브라우저 실행이 가능한 환경에서 차트를 렌더링한다.
+- 차트 스크린샷 API를 사용해 렌더링된 차트의 캔버스 이미지를 얻는다.
+- 결과 캔버스를 삽입용 이미지 산출물로 직렬화한다.
+- 분석적으로 의미가 있는 경우 패널과 오버레이를 유지한다.
 
-## Matplotlib export guidance
+## Matplotlib 내보내기 가이드
 
-- Render the figure with stable sizing and dpi.
-- Use `savefig()` to write the image file.
-- Prefer tight bounding boxes when whitespace would otherwise dilute readability.
+- 안정적인 크기와 dpi로 figure를 렌더링한다.
+- `savefig()`를 사용해 이미지 파일을 저장한다.
+- 여백이 가독성을 떨어뜨릴 경우 타이트한 경계 상자(bounding box)를 우선한다.
 
-## Practical decision rule
+## 실무 판단 규칙
 
-- If the chart is finance-native and time-series heavy, start with `lightweight-charts`.
-- If the chart is a composition or unsupported special case, use `matplotlib`.
-- If both can work, prefer the one that produces the cleaner embedded image with less post-processing.
+- 금융 고유의 차트이면서 시계열 비중이 크다면 `lightweight-charts`로 시작한다.
+- 구성 비율 차트이거나 지원되지 않는 특수 사례라면 `matplotlib`을 사용한다.
+- 둘 다 가능하다면 후처리가 적고 더 깔끔한 삽입 이미지를 만드는 쪽을 우선한다.

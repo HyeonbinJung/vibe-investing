@@ -1,65 +1,65 @@
-# Data Hygiene, Risk, and Attribution
+# 데이터 위생, 리스크, 성과 요인 분석
 
-## Table of Contents
+## 목차
 
-- Data hygiene
-- Risk modeling
-- Performance attribution
-- Interpretation rules
+- 데이터 위생
+- 리스크 모델링
+- 성과 요인 분석
+- 해석 규칙
 
-## Data hygiene
+## 데이터 위생
 
-Always check:
+항상 점검한다:
 
-- point-in-time correctness
-- survivorship bias
-- look-ahead bias
-- stale or revised fundamentals
-- missing-data patterns
-- corporate actions handling
-- delisting and dead-asset treatment
+- 시점 정합성(point-in-time correctness)
+- 생존 편향
+- 미래 참조 편향
+- 갱신되지 않았거나 수정된 펀더멘털 데이터
+- 결측 데이터 패턴
+- 기업 행위(corporate actions) 처리
+- 상장폐지 및 소멸 자산 처리
 
-Decision rule:
+판단 규칙:
 
-- If the data pipeline is suspect, confidence in the research must drop immediately.
+- 데이터 파이프라인이 의심스러우면 리서치에 대한 확신 수준을 즉시 낮춰야 한다.
 
-## Risk modeling
+## 리스크 모델링
 
-Measure:
+측정 항목:
 
-- market beta
-- factor exposures
-- volatility
-- correlation clustering
-- drawdown profile
-- concentration
-- leverage or embedded convexity
+- 시장 베타
+- 팩터 노출
+- 변동성
+- 상관관계 군집
+- 낙폭(drawdown) 프로파일
+- 집중도
+- 레버리지 또는 내재된 볼록성(convexity)
 
-Ask:
+질문:
 
-- Is the signal just hidden risk loading?
-- Does the strategy earn returns by warehousing unpleasant tail risk?
-- Is the payoff attractive after adjusting for the true risk taken?
+- 시그널이 단지 숨겨진 리스크 노출에 불과한가?
+- 전략이 불리한 꼬리 리스크를 떠안는 대가로 수익을 얻고 있는가?
+- 실제로 감수한 리스크를 조정한 후에도 손익 구조가 매력적인가?
 
-## Performance attribution
+## 성과 요인 분석
 
-Decompose returns into:
+수익률을 다음으로 분해한다:
 
-- broad beta
-- known factor exposure
-- sector or style effects
-- timing contribution
-- selection contribution
-- cost drag
+- 광의의 베타
+- 알려진 팩터 노출
+- 섹터 또는 스타일 효과
+- 타이밍 기여도
+- 종목 선택 기여도
+- 비용 손실
 
-Ask:
+질문:
 
-- Is the result true alpha or disguised exposure?
-- Is the performance persistent or one-off?
-- What exactly is doing the work?
+- 결과가 진정한 알파인가, 위장된 노출인가?
+- 성과가 지속적인가, 일회성인가?
+- 정확히 무엇이 성과를 만들어내고 있는가?
 
-## Interpretation rules
+## 해석 규칙
 
-- Never call unexplained return alpha before attribution.
-- If returns are mostly explained by known factors, say so clearly.
-- If the strategy is economically sensible but operationally fragile, separate research quality from deployment quality.
+- 성과 요인 분석 전에는 설명되지 않은 수익률을 결코 알파라고 부르지 않는다.
+- 수익률 대부분이 알려진 팩터로 설명된다면 이를 분명히 밝힌다.
+- 전략이 경제적으로는 타당하지만 운용상 취약하다면, 리서치 품질과 실전 배치 품질을 구분한다.
