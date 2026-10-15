@@ -92,7 +92,7 @@ node viewer/server.js
 - **자동 언어 감지**: 한국어로 질문하면 최종 답변을 한국어로 작성
 - **용어 표준화**: [한국어 금융 용어집](skills/output-formats/korean-localization/references/korean-finance-glossary.md) 기반으로 `잉여현금흐름(FCF)`처럼 병기
 - **원화 단위**: `1조 2,345억 원` 형식, 환율·기준일 명시
-- **한국 시장 데이터**: DART, KRX, 한국은행 ECOS 및 `005930.KS`, `035720.KQ` 티커 규칙
+- **한국 시장 데이터**: DART, KRX, 한국은행 ECOS 및 `005930.KS`, `247540.KQ` 티커 규칙
 
 자세한 변경 내역은 [updates/](updates/) 폴더를 참고하세요.
 
